@@ -102,7 +102,7 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 21. Socialización de la herramienta con la comunidad
 
 **EDT**
-![](/images/EDT.png)
+![](/images/EDT.PNG)
 
 **Propuesta estructura orgánica:**
 
