@@ -104,3 +104,22 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 **Propuesta estructura orgánica:**
 
 ![](/images/estructura_organica.png)
+
+**Estimaciones**
+
+![](/images/estimacionCostos.PNG)
+
+![](/images/estimacionTiempos.PNG)
+
+**Cronograma**
+
+![](/images/cro1.PNG)
+![](/images/cro2.PNG)
+![](/images/cro3.PNG)
+![](/images/cro4.PNG)
+![](/images/cro5.PNG)
+![](/images/cro6.PNG)
+![](/images/cro7.PNG)
+![](/images/cro8.PNG)
+![](/images/cro9.PNG)
+![](/images/cro10.PNG)
