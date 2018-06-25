@@ -101,6 +101,9 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 20. Capacitación de los usuarios (empleados)
 21. Socialización de la herramienta con la comunidad
 
+**EDT**
+![](/images/EDT.png)
+
 **Propuesta estructura orgánica:**
 
 ![](/images/estructura_organica.png)
