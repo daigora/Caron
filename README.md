@@ -23,8 +23,6 @@ El proyecto cuenta con 5 módulos principales:
 4. **Agendamiento de citas:** Finalmente dependiendo del resultado del módulo anterior, se verificará la disponibilidad de citas en el calendario del centro carcelario y se le agendará una cita, la cual se le notificará por medio de una notificación en el aplicativo y un correo electrónico que informará el resultado de la solicitud, si ésta no es aprobada, se le informará los requerimientos que no cumplió y si es aprobada se le informará el día, la hora, el lugar, la sala de visita, y las recomendaciones a seguir al momento de la visita, así mismo se le enviará una etiqueta en formato PDF con código de barras y la información del visitante y el recluso que va a visitar que deberá imprimir y portar el día de la visita.
 5. **Histórico de visitas:** El día en el que se lleva a cabo la visita el empleado del INPEC deberá registrar la asistencia del visitante al centro carcelario, así mismo se detallará información como la hora de inicio y fin de la visita, los elementos confiscados y otros detalles adicionales que se presenten durante la visita. Este histórico lo podrán consultar tanto los visitantes como los empleados del centro carcelario siempre que quieran, los visitantes podrán consultar el registro de ellos mismos, mientras que los empleados sólo podrán revisar los registros de los reclusos que tienen a cargo.
 
-
-
 **Objetivos:**
 
 **General:**
@@ -57,8 +55,6 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 - El proyecto será orientado únicamente a las instituciones penitenciarias de Bogotá.
 - El tipo de ítems que se pueden ingresar en la visita, será el acordado por INPEC en la resolución 6305de 20091.
 
-
-
 **Criterios de Exito**
 
 1. La información disponible debe ser encontrada fácilmente y estar disponible para los stakeholder del proyecto según sus necesidades.
@@ -80,20 +76,20 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 **Listado de tareas y construcción**
 
 * (12) Planeación:
-    * (14). Definición de tareas
-    * (17). Definición de objetivos
-    *19. Definición de alcance
-    *20. Definición de criterios de éxito
-    *21. Construcción EDT
-    *22. Estimación de recursos
-23. Revisión de estado actual:
-    24. Estudio de la legislación penitenciaria
-    25. Análisis de requerimientos por roles
-    26. Detectar falencias en los procesos del sistema
-    27. Delimitar la información relevante de los roles
-28. Construcción de software:
- 29. Construcción de componentes de software:
-  30. Registro de usuario:
+    * (14) Definición de tareas
+    * (17) Definición de objetivos
+    * (19) Definición de alcance
+    * (20) Definición de criterios de éxito
+    * (21) Construcción EDT
+    * (22) Estimación de recursos
+* (23) Revisión de estado actual:
+    * (24) Estudio de la legislación penitenciaria
+    * (25) Análisis de requerimientos por roles
+    * (26) Detectar falencias en los procesos del sistema
+    * (27) Delimitar la información relevante de los roles
+* (28) Construcción de software:
+    * (29) Construcción de componentes de software:
+        * (30) Registro de usuario:
    31. CRUD Visitante
    32. CRUD Empleado
    33. CRUD Recluso
