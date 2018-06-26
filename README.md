@@ -80,7 +80,7 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 **Listado de tareas y construcción**
 
 12. Planeación:
-    14. Definición de tareas
+---- 14. Definición de tareas
     17. Definición de objetivos
     19. Definición de alcance
     20. Definición de criterios de éxito
