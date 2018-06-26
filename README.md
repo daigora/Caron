@@ -79,62 +79,58 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 
 **Listado de tareas y construcción**
 
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
-  - Like this
-  - And this
-12. Planeación
-  14. Definición de tareas
+12. Planeación:
+ 14. Definición de tareas
  17. Definición de objetivos
  19. Definición de alcance
  20. Definición de criterios de éxito
  21. Construcción EDT
  22. Estimación de recursos
-23. Revisión de estado actual
-⋅⋅24. Estudio de la legislación penitenciaria
-⋅⋅25. Análisis de requerimientos por roles
-⋅⋅26. Detectar falencias en los procesos del sistema
-⋅⋅27. Delimitar la información relevante de los roles
-28. Construcción de software
-⋅⋅29. Construcción de componentes de software
-⋅⋅⋅⋅30. Registro de usuario
-⋅⋅⋅⋅⋅⋅31. CRUD Visitante
-⋅⋅⋅⋅⋅⋅32. CRUD Empleado
-⋅⋅⋅⋅⋅⋅33. CRUD Recluso
-⋅⋅⋅⋅⋅⋅34. Auctenticar acceso
-⋅⋅⋅⋅⋅⋅35. Gestionar permisos
-⋅⋅⋅⋅36. Solicitud de visita
-⋅⋅⋅⋅⋅⋅37. CRUD Solicitud
-⋅⋅⋅⋅38. Verificación de requerimientos de visitante
-⋅⋅⋅⋅⋅⋅39. Notificar recepción de solicitud
-⋅⋅⋅⋅⋅⋅40. CRUD Validación
-⋅⋅⋅⋅41. Agendamiento de citas
-⋅⋅⋅⋅⋅⋅42. Notificar respuesta de solicitud
-⋅⋅⋅⋅⋅⋅43. Desplegar boletin de Recomendaciones
-⋅⋅⋅⋅44. Documentos
-⋅⋅⋅⋅⋅⋅45. Cargar archivos
-⋅⋅⋅⋅⋅⋅46. Generar ticket de visita en PDF
-⋅⋅⋅⋅⋅⋅47. Generar reposrte de histórico de citas
-⋅⋅⋅⋅⋅⋅48. Generar métricas del aplicativo
-⋅⋅⋅⋅49. Migración de datos al sistema de información
-⋅⋅⋅⋅⋅⋅50. Migración de datos de empleados
-⋅⋅⋅⋅⋅⋅51. Migración de datos de reclusos
-⋅⋅⋅⋅52. Integración
-⋅⋅⋅⋅⋅⋅53. Parametrización del módulo de documentos
-⋅⋅⋅⋅⋅⋅54. Parametrización del módulo de registro
-⋅⋅⋅⋅⋅⋅55. Parametrización del módulo de solicitud de visita
-⋅⋅⋅⋅⋅⋅56. Parametrización del módulo verificación de requerimientos
-⋅⋅⋅⋅⋅⋅57. Parametrización del modulo de agendamiento de citas
-⋅⋅58. Pruebas
-⋅⋅⋅⋅50. Pruebas de componentes
-⋅⋅⋅⋅⋅⋅60. Prueba de registro de usuario
-⋅⋅⋅⋅⋅⋅61. Prueba de solicitud de visita
-⋅⋅⋅⋅⋅⋅62. Prueba de verificación de requerimientos de visitante
-⋅⋅⋅⋅⋅⋅63. Prueba del módulo de documentos
-⋅⋅64. Puesta en marcha
-⋅⋅⋅⋅65. Despliegue
-⋅⋅⋅⋅66. Capacitación de personal
-⋅⋅⋅⋅67. Socialización a la comunidad
+23. Revisión de estado actual:
+ 24. Estudio de la legislación penitenciaria
+ 25. Análisis de requerimientos por roles
+ 26. Detectar falencias en los procesos del sistema
+ 27. Delimitar la información relevante de los roles
+28. Construcción de software:
+ 29. Construcción de componentes de software:
+  30. Registro de usuario:
+   31. CRUD Visitante
+   32. CRUD Empleado
+   33. CRUD Recluso
+   34. Auctenticar acceso
+   35. Gestionar permisos
+  36. Solicitud de visita:
+   37. CRUD Solicitud
+  38. Verificación de requerimientos de visitante:
+   39. Notificar recepción de solicitud
+   40. CRUD Validación
+  41. Agendamiento de citas:
+   42. Notificar respuesta de solicitud
+   43. Desplegar boletin de Recomendaciones
+  44. Documentos:
+   45. Cargar archivos
+   46. Generar ticket de visita en PDF
+   47. Generar reposrte de histórico de citas
+   48. Generar métricas del aplicativo
+  49. Migración de datos al sistema de información:
+   50. Migración de datos de empleados
+   51. Migración de datos de reclusos
+  52. Integración:
+   53. Parametrización del módulo de documentos
+   54. Parametrización del módulo de registro
+   55. Parametrización del módulo de solicitud de visita
+   56. Parametrización del módulo verificación de requerimientos
+   57. Parametrización del modulo de agendamiento de citas
+  58. Pruebas:
+   50. Pruebas de componentes:
+    60. Prueba de registro de usuario
+    61. Prueba de solicitud de visita
+    62. Prueba de verificación de requerimientos de visitante
+    63. Prueba del módulo de documentos
+  64. Puesta en marcha:
+   65. Despliegue
+   66. Capacitación de personal
+   67. Socialización a la comunidad
 
 
 
