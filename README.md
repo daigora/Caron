@@ -21,7 +21,7 @@ El proyecto cuenta con 5 módulos principales:
 2. **Solicitud de visita:** Módulo encargado de solicitar una visita al sistema, el visitante deberá proveer información adicional a la hora de solicitar una visita, tales como el parentesco, documento de identificación, motivo de la visita, ingreso de elementos al centro carcelario con destino al recluso y etc. La solicitud luego se le remite al empleado a cargo del recluso que se va a visitar.
 3. **Verificación de requerimientos del visitante:** Una vez remitida la solicitud de la visita, el empleado del centro carcelario se encargará de verificar y validar la información anexada por el visitante, así mismo verificará la condición del recluso, tales como su estado (disponible, aislado, hospitalizado, fuera del centro carcelario), la voluntad de asistir a la visita y en caso de que se vayan a ingresar elementos, verificar que cumplen con las normas del centro carcelario.
 4. **Agendamiento de citas:** Finalmente dependiendo del resultado del módulo anterior, se verificará la disponibilidad de citas en el calendario del centro carcelario y se le agendará una cita, la cual se le notificará por medio de una notificación en el aplicativo y un correo electrónico que informará el resultado de la solicitud, si ésta no es aprobada, se le informará los requerimientos que no cumplió y si es aprobada se le informará el día, la hora, el lugar, la sala de visita, y las recomendaciones a seguir al momento de la visita, así mismo se le enviará una etiqueta en formato PDF con código de barras y la información del visitante y el recluso que va a visitar que deberá imprimir y portar el día de la visita.
-5. **Histórico de visitas:** El día en el que se lleva a cabo la visita el empleado del INPEC deberá registrar la asistencia del visitante al centro carcelario, así mismo se detallará información como la hora de inicio y fin de la visita, los elementos confiscados y otros detalles adicionales que se presenten durante la visita. Este histórico lo podrán consultar tanto los visitantes como los empleados del centro carcelario siempre que quieran, los visitantes podrán consultar el registro de ellos mismos, mientras que los empleados sólo podrán revisar los registros de los reclusos que tienen a cargo.
+5. **Métricas e histórico de uso:** Al momento de realizarse las visitas y las solicitudes, la información quedará guardada para uso futuro, tanto para consulta como análisis. Este histórico lo podrán consultar tanto los visitantes como los empleados del centro carcelario siempre que quieran, la información de los reclusos sólo puede ser visualizada por los empleados que los vigilan, mientras que las métricas de uso definidas solo serán accesibles a los administradores como herramienta en la toma de decisiones.
 
 **Objetivos:**
 
@@ -75,6 +75,11 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 
 **Listado de tareas y construcción**
 
+* (12) Fase inicial de contratación
+    * (14) Reunion informativa
+    * (15) Descripcion de requisitos funcionales
+    * (16) Visitas a centros penitenciarios
+    * (17) Firma de contrato
 * (12) Planeación:
     * (14) Definición de tareas
     * (17) Definición de objetivos
@@ -93,20 +98,20 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
             * (31) CRUD Visitante
             * (32) CRUD Empleado
             * (33) CRUD Recluso
-            * (34) Auctenticar acceso
-            * (35) Gestionar permisos
+            * (34) Autenticar acceso
         * (36) Solicitud de visita:
             * (37) CRUD Solicitud
         * (38) Verificación de requerimientos de visitante:
             * (39) Notificar recepción de solicitud
             * (40) CRUD Validación
         * (41) Agendamiento de citas:
+            * () Modificar estado de la solicitud
             * (42) Notificar respuesta de solicitud
             * (43) Desplegar boletin de Recomendaciones
         * (44) Documentos:
             * (45) Cargar archivos
             * (46) Generar ticket de visita en PDF
-            * (47) Generar reposrte de histórico de citas
+            * (47) Generar reposter de histórico de citas
             * (48) Generar métricas del aplicativo
         * (49) Migración de datos al sistema de información:
             * (50) Migración de datos de empleados
@@ -116,17 +121,35 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
             * (54) Parametrización del módulo de registro
             * (55) Parametrización del módulo de solicitud de visita
             * (56) Parametrización del módulo verificación de requerimientos
-            * (57) Parametrización del modulo de agendamiento de citas
-    * (58) Pruebas:
-        * (50) Pruebas de componentes:
-            * (60) Prueba de registro de usuario
-            * (61) Prueba de solicitud de visita
-            * (62) Prueba de verificación de requerimientos de visitante
-            * (63) Prueba del módulo de documentos
+            * (57) Parametrización del módulo de agendamiento de citas
+            * () Parametrización del módulo de administración
+            * () Parametrización de vistas
+        * () Administración
+            * () Gestionar permisos
+            * () Gestionar configuración de la plataforma
+            * () Cambiar el estado general de la plataforma
+            * () Modificar usuarios según su rol
+        * () Vista
+            * () Crear vista de visitante
+            * () Crear vista de administrador
+            * () Crear vista de empleado
+            * () Crear vista general
+            * () Crear formularios de registros
+* (58) Pruebas:
+    * (50) Pruebas de componentes:
+        * (60) Prueba de registro de usuario
+        * (61) Prueba de solicitud de visita
+        * (62) Prueba de verificación de requerimientos de visitante
+        * (63) Prueba del módulo de documentos
 * (64) Puesta en marcha:
     * (65) Despliegue
+    * () Aprobación del cliente
+* () Cierre de proyecto
+    * () Entrega de productos
     * (66) Capacitación de personal
     * (67) Socialización a la comunidad
+    * () Resolución del contrato
+
 
 **EDT**
 
@@ -136,7 +159,7 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 
 ![](/images/estructura_organica.png)
 
-**Estimaciones**
+**Estimaciones** [Disponible aquí](https://docs.google.com/spreadsheets/d/1KGs9Y5dLv0NDuRlbtz7cf2v1dTNEGeREAM1t5Hsk28U/edit?usp=sharing)
 
 ![](/images/estimacionCostos.PNG)
 
@@ -161,7 +184,7 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 
 ![](/images/rbs.png)
 
-**Matriz de Identificación de Riesgos**
+**Matriz de Identificación de Riesgos** [Disponible aquí](https://docs.google.com/spreadsheets/d/1HNhv0lnjbljHc_Gt_yqM9vKkxg_p-VUNbnf8mBl2vp4/edit?usp=sharing)
 
 ![](/images/matrzR.PNG)
 ![](/images/matrzR2.PNG)
