@@ -90,93 +90,43 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 * (28) Construcción de software:
     * (29) Construcción de componentes de software:
         * (30) Registro de usuario:
-   31. CRUD Visitante
-   32. CRUD Empleado
-   33. CRUD Recluso
-   34. Auctenticar acceso
-   35. Gestionar permisos
-  36. Solicitud de visita:
-   37. CRUD Solicitud
-  38. Verificación de requerimientos de visitante:
-   39. Notificar recepción de solicitud
-   40. CRUD Validación
-  41. Agendamiento de citas:
-   42. Notificar respuesta de solicitud
-   43. Desplegar boletin de Recomendaciones
-  44. Documentos:
-   45. Cargar archivos
-   46. Generar ticket de visita en PDF
-   47. Generar reposrte de histórico de citas
-   48. Generar métricas del aplicativo
-  49. Migración de datos al sistema de información:
-   50. Migración de datos de empleados
-   51. Migración de datos de reclusos
-  52. Integración:
-   53. Parametrización del módulo de documentos
-   54. Parametrización del módulo de registro
-   55. Parametrización del módulo de solicitud de visita
-   56. Parametrización del módulo verificación de requerimientos
-   57. Parametrización del modulo de agendamiento de citas
-  58. Pruebas:
-   50. Pruebas de componentes:
-    60. Prueba de registro de usuario
-    61. Prueba de solicitud de visita
-    62. Prueba de verificación de requerimientos de visitante
-    63. Prueba del módulo de documentos
-  64. Puesta en marcha:
-   65. Despliegue
-   66. Capacitación de personal
-   67. Socialización a la comunidad
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1. Hacer estudio de normas vigentes para la visita a reclusos
-2. Analizar los requerimientos según por roles
-3. Detectar falencias en los procesos del sistema
-4. Delimitar la información relevante de los distintos roles
-5. Construcción del componente de registro de usuarios
-6. Construcción del componente de solicitud de visita
-7. Construcción del componente de verificación de requerimientos del visitante
-8. Construcción del componente del agendamiento de citas
-9. Construcción del componente del histórico de citas
-10. Migración de la información al sistema de información
-11. Determinar mecanismos de autenticación de la información suministrada por los visitantes
-12. Determinar mecanismos de confidencialidad para el manejo de la información
-13. Delimitar los permisos de lectura y escritura por parte de los roles
-14. Prueba del componente de registro de usuarios
-15. Prueba del componente de solicitud de visita
-16. Prueba del componente de verificación de requerimientos del visitante
-17. Prueba del componente del agendamiento de citas
-18. Prueba del componente del histórico de citas
-19. Despliegue de la plataforma
-20. Capacitación de los usuarios (empleados)
-21. Socialización de la herramienta con la comunidad
+            * (31) CRUD Visitante
+            * (32) CRUD Empleado
+            * (33) CRUD Recluso
+            * (34) Auctenticar acceso
+            * (35) Gestionar permisos
+        * (36) Solicitud de visita:
+            * (37) CRUD Solicitud
+        * (38) Verificación de requerimientos de visitante:
+            * (39) Notificar recepción de solicitud
+            * (40) CRUD Validación
+        * (41) Agendamiento de citas:
+            * (42) Notificar respuesta de solicitud
+            * (43) Desplegar boletin de Recomendaciones
+        * (44) Documentos:
+            * (45) Cargar archivos
+            * (46) Generar ticket de visita en PDF
+            * (47) Generar reposrte de histórico de citas
+            * (48) Generar métricas del aplicativo
+        * (49) Migración de datos al sistema de información:
+            * (50) Migración de datos de empleados
+            * (51) Migración de datos de reclusos
+        * (52) Integración:
+            * (53) Parametrización del módulo de documentos
+            * (54) Parametrización del módulo de registro
+            * (55) Parametrización del módulo de solicitud de visita
+            * (56) Parametrización del módulo verificación de requerimientos
+            * (57) Parametrización del modulo de agendamiento de citas
+    * (58) Pruebas:
+        * (50) Pruebas de componentes:
+            * (60) Prueba de registro de usuario
+            * (61) Prueba de solicitud de visita
+            * (62) Prueba de verificación de requerimientos de visitante
+            * (63) Prueba del módulo de documentos
+* (64) Puesta en marcha:
+    * (65) Despliegue
+    * (66) Capacitación de personal
+    * (67) Socialización a la comunidad
 
 **EDT**
 
