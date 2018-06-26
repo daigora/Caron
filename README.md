@@ -87,10 +87,10 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
     21. Construcción EDT
     22. Estimación de recursos
 23. Revisión de estado actual:
- 24. Estudio de la legislación penitenciaria
- 25. Análisis de requerimientos por roles
- 26. Detectar falencias en los procesos del sistema
- 27. Delimitar la información relevante de los roles
+    24. Estudio de la legislación penitenciaria
+    25. Análisis de requerimientos por roles
+    26. Detectar falencias en los procesos del sistema
+    27. Delimitar la información relevante de los roles
 28. Construcción de software:
  29. Construcción de componentes de software:
   30. Registro de usuario:
