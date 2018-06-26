@@ -79,6 +79,10 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 
 **Listado de tareas y construcción**
 
+- Dashes work just as well
+- And if you have sub points, put two spaces before the dash or star:
+  - Like this
+  - And this
 12. Planeación
  14. Definición de tareas
  17. Definición de objetivos
