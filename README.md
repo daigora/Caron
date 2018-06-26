@@ -133,5 +133,5 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 
 **Matriz de Identificación de Riesgos**
 
-![](/images/matrzR.PNG)
-![](/images/matrzR2.PNG)
+![](/images/matrzR.PNG=737x506)
+![](/images/matrzR2.PNG=737x506)
