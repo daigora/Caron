@@ -75,11 +75,11 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 
 **Listado de tareas y construcción**
 
-* (12) Fase inicial de contratación
-    * (14) Reunion informativa
-    * (15) Descripcion de requisitos funcionales
-    * (16) Visitas a centros penitenciarios
-    * (17) Firma de contrato
+* (89) Fase inicial de contratación
+    * (90) Reunion informativa
+    * (91) Descripción de requisitos funcionales
+    * (92) Visitas a centros penitenciarios
+    * (93) Firma de contrato
 * (12) Planeación:
     * (14) Definición de tareas
     * (17) Definición de objetivos
@@ -105,7 +105,7 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
             * (39) Notificar recepción de solicitud
             * (40) CRUD Validación
         * (41) Agendamiento de citas:
-            * () Modificar estado de la solicitud
+            * (68) Modificar estado de la solicitud
             * (42) Notificar respuesta de solicitud
             * (43) Desplegar boletin de Recomendaciones
         * (44) Documentos:
@@ -113,6 +113,11 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
             * (46) Generar ticket de visita en PDF
             * (47) Generar reposter de histórico de citas
             * (48) Generar métricas del aplicativo
+        * (71) Administración
+            * (72) Gestionar permisos
+            * (73) Gestionar configuración de la plataforma
+            * (74) Cambiar el estado general de la plataforma
+            * (75) Modificar usuarios según su rol
         * (49) Migración de datos al sistema de información:
             * (50) Migración de datos de empleados
             * (51) Migración de datos de reclusos
@@ -122,33 +127,27 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
             * (55) Parametrización del módulo de solicitud de visita
             * (56) Parametrización del módulo verificación de requerimientos
             * (57) Parametrización del módulo de agendamiento de citas
-            * () Parametrización del módulo de administración
-            * () Parametrización de vistas
-        * () Administración
-            * () Gestionar permisos
-            * () Gestionar configuración de la plataforma
-            * () Cambiar el estado general de la plataforma
-            * () Modificar usuarios según su rol
-        * () Vista
-            * () Crear vista de visitante
-            * () Crear vista de administrador
-            * () Crear vista de empleado
-            * () Crear vista general
-            * () Crear formularios de registros
+            * (69) Parametrización del módulo de administración
+            * (70) Parametrización de vistas
+        * (78) Vista
+            * (79) Crear vista de visitante
+            * (80) Crear vista de administrador
+            * (81) Crear vista de empleado
+            * (82) Crear vista general
+            * (83) Crear formularios de registros
 * (58) Pruebas:
     * (50) Pruebas de componentes:
         * (60) Prueba de registro de usuario
         * (61) Prueba de solicitud de visita
         * (62) Prueba de verificación de requerimientos de visitante
         * (63) Prueba del módulo de documentos
+        * (99) Prueba del módulo de administración
 * (64) Puesta en marcha:
     * (65) Despliegue
-    * () Aprobación del cliente
-* () Cierre de proyecto
-    * () Entrega de productos
-    * (66) Capacitación de personal
-    * (67) Socialización a la comunidad
-    * () Resolución del contrato
+    * (66) Aprobación del cliente
+* (94) Cierre de proyecto
+    * (95) Entrega de productos
+    * (98) Resolución del contrato
 
 
 **EDT**
