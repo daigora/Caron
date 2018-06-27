@@ -1,4 +1,4 @@
-# CARON
+# CARÓN
 **Fase Inicial**
 
 **Nombre del proyecto:** _Aplicativo para la gestión de visitas en establecimientos carcelarios_
