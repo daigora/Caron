@@ -172,8 +172,7 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 ![](/images/cro4.PNG)
 ![](/images/cro5.PNG)
 ![](/images/cro6.PNG)
-![](/images/cro7.PNG)
-![](/images/cro8.PNG)
+
 
 **Diagrama de flujo del proyecto**
 
