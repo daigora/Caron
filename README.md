@@ -200,3 +200,29 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 
 * Proceso de planeación
 ![](/images/Proceso_Planeación.png)
+
+* Construccion de componente validacion y agendamiento de citas
+    * CRUD validacion
+![](/images/ValidacionAgendamiento/CRUDValidacion-1.0.png)
+    * Crear vista de empleado
+![](/images/ValidacionAgendamiento/CrearVistaEmpleado-1.0.png)
+    * Modificar estado de la solicitud
+![](/images/ValidacionAgendamiento/ModificarEstadoSolicitud-1.0.png)
+    * Notificar respuesta de solicitud
+![](/images/ValidacionAgendamiento/NotificarRespuestaSolicitud-1.0.png)
+    * Desplegar boletin de recomendaciones
+![](/images/ValidacionAgendamiento/DesplegarBoletinRecomendaciones-1.0.png)
+    * Generar ticket de visita en PDF
+![](/images/ValidacionAgendamiento/GenerarTicketVisita-1.0.png)
+    * Agregar registro al historico de citas
+![](/images/ValidacionAgendamiento/AgregarCitaHistorico-1.0.png)
+    * Parametrizacion del modulo de verificacion
+![](/images/ValidacionAgendamiento/ParametrizacionModuloVerificacion-1.0.png)
+    * Parametrizacion del modulo de agendamiento de citas
+![](/images/ValidacionAgendamiento/ParametrizacionModuloAgendamiento-1.0.png)
+    * Prueba de solicitud de visita
+![](/images/ValidacionAgendamiento/PruebaSolicitudVisita-1.0.png)
+    * Prueba de verificaciion de requerimientos de visitante
+![](/images/ValidacionAgendamiento/PruebaSolicitudVerificacion-1.0.png)
+    * Generar metricas del aplicativo
+![](/images/ValidacionAgendamiento/MetricasAplicativo-1.0.png)
