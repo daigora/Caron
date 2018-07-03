@@ -193,3 +193,6 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 
 * Construcción de componente Registro de Usuario:
 ![](/images/RegUsuario.png)
+
+* Proceso de planeación
+![](/images/Proceso_Planeación.png)
