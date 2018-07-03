@@ -186,3 +186,7 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 
 ![](/images/matrzR.png)
 ![](/images/matrzR2.png)
+
+**Procesos de desarrollo del proyecto**
+* Construcción de componente administración:
+![](/images/Proceso_construccion_modulo_admin_1.0.png)
