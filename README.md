@@ -87,12 +87,16 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
     * (20) Definición de criterios de éxito
     * (21) Construcción EDT
     * (22) Estimación de recursos
+    * (100) Definir hitos del proyecto
+    * (101) Refinar hitos del proyecto
 * (23) Revisión de estado actual:
     * (24) Estudio de la legislación penitenciaria
     * (25) Análisis de requerimientos por roles
     * (26) Detectar falencias en los procesos del sistema
     * (27) Delimitar la información relevante de los roles
 * (28) Construcción de software:
+    * (105) Instalar herramientas de terceros
+    * (106) Documentación de componentes de software
     * (29) Construcción de componentes de software:
         * (30) Registro de usuario:
             * (31) CRUD Visitante
@@ -136,6 +140,8 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
             * (82) Crear vista general
             * (83) Crear formularios de registros
 * (58) Pruebas:
+    * (103) Diseño de plan de pruebas
+    * (104) Construcción de scripts de pruebas
     * (50) Pruebas de componentes:
         * (60) Prueba de registro de usuario
         * (61) Prueba de solicitud de visita
@@ -143,9 +149,11 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
         * (63) Prueba del módulo de documentos
         * (99) Prueba del módulo de administración
 * (64) Puesta en marcha:
+    * (107) Construcción manual de usuario y de instalación
     * (65) Despliegue
     * (66) Aprobación del cliente
 * (94) Cierre de proyecto
+    * (108) Entrega de documentación completa del producto
     * (95) Entrega de productos
     * (98) Resolución del contrato
 
