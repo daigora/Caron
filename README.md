@@ -1,9 +1,14 @@
 # CARÓN
 Maddyzeth Ariza Riaño 20132020101
+
 Daniel Esteban Ladino Torres 20142020043
+
 Diego Alejandro Correa Ramírez 20141020021
+
 Jhon Janer Castellanos 201310
+
 Diego Alejandro Rodríguez Ayala 20142020068
+
 María Camila Guerrero Giraldo 20142020051
 
 **Fase Inicial**
