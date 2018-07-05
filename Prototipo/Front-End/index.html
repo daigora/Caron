@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie-edge">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+<body class="fondoContainer">
+<!-- **************************** INICIO DE CODIGO ******************-->
+
+<!-- Menu de Navegación -->
+
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="#">CARON</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">Perfil</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Agenda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Notificaciones</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link " href="#">Boletín de Anuncios</a>
+                  </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Búsqueda</button>
+          </form>
+        </div>
+      </nav>
+
+<!-- Contenido -->
+
+
+<main role="main" class="container-fluid">
+       
+    <div class="modal-body row">          
+                <div class="col-md-8  fondoContainer">
+                  <h4 class="mb-3">Información Personal</h4>
+                  <form class="needs-validation" novalidate>
+                    <div class="row">
+                      <div class="col-md-6 mb-3">
+                        <label for="firstName">Nombres</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="Juan Alfonso"  disabled required>
+                        <div class="invalid-feedback">
+                          Nombres requeridos.
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="lastName">Apellidos</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="Roa Suarez" disabled required>
+                        <div class="invalid-feedback">
+                          Apellidos requeridos.
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="mb-3">
+                      <label for="email">Email <span class="text-muted">(Obligatorio)</span></label>
+                      <input type="email" class="form-control" id="email" placeholder="usted@ejemplo.com" disabled>
+                      <div class="invalid-feedback">
+                        Por favor ingrese una dirección de correo electrónico
+                      </div>
+                    </div>
+
+                    <div class="mb-3">
+                            <label for="email">Telefono <span class="text-muted">(Obligatorio)</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="1234546" disabled>
+                            <div class="invalid-feedback">
+                              Por favor ingrese un telefono fijo
+                            </div>
+                          </div>
+
+                    <div class="mb-3">
+                            <label for="email">Celular <span class="text-muted">(Opcional)</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="312445466767" disabled>
+                            <div class="invalid-feedback">
+                                Por favor ingrese un número celular
+                            </div>
+                            </div>
+        
+                    <div class="mb-3">
+                      <label for="address">Dirección de Residencia</label>
+                      <input type="text" class="form-control" id="address" placeholder="" value="Carrera 123 Esquina 4" disabled required>
+                      <div class="invalid-feedback">
+                        Por favor ingrese su dirección de residencia
+                      </div>
+                    </div>
+        
+                    <div class="mb-3">
+                      <label for="address2">Dirección alterna <span class="text-muted">(Opcional)</span></label>
+                      <input type="text" class="form-control" id="address2" placeholder="" value="Kr 56 #45" disabled>
+                    </div>
+        
+                    <div class="row">
+                      <div class="col-md-5 mb-3">
+                        <label for="country">Ciudad</label>
+                        <select class="custom-select d-block w-100" id="country" required disabled>
+                          <option value="">Barranquilla</option>
+                          <option>Bogotá</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Por favor ingrese una ciudad válida.
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="state">Localidad</label>
+                        <select class="custom-select d-block w-100" id="state" required disabled>
+                          <option value="">Fontibon</option>
+                          <option>Bosa</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Por favor ingrese una localidad válida.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="zip">Barrio</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" value="Santa Helenita" required disabled>
+                        <div class="invalid-feedback">
+                          Por favor ingrese el nombre de su barrio.
+                        </div>
+                      </div>
+                    </div>
+                   
+                    
+                    <hr class="mb-4">
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Actualice su información</button>
+                  </form> 
+        </div>
+              
+        <div class="col-md-4 fondoContainer border">
+                <div class="card mx-auto" style="width: 14rem;">
+                        <img class="card-img-top" src="img/idFoto.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Foto de perfil</h5>
+                            <a href="#" class="btn btn-primary">Actualice su imagen</a>
+                        </div>
+                      </div>
+        </div>
+
+
+    </div>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- **************************** FIN DE CODIGO ******************-->
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
