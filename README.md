@@ -11,7 +11,7 @@ Diego Alejandro Rodríguez Ayala 20142020068
 
 María Camila Guerrero Giraldo 20142020051
 
-**Fase Inicial**
+## Fase Inicial
 
 **Nombre del proyecto:** _Aplicativo para la gestión de visitas en establecimientos carcelarios_
 
