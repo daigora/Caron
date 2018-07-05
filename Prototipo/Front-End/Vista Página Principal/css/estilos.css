@@ -1,0 +1,92 @@
+header {
+  background-color: #A569BD;
+  padding-top:20px;
+}
+
+
+body{
+  background-color: white;
+}
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+#separador{
+  border-top: 1px dashed #8c8b8b;
+  height: 0px;
+	
+}
+
+#caron
+ {
+    width: 600px;
+    padding-top: 25px;
+    }
+ #lgF{
+   width: 600px;
+ }
+
+#divIngreso{
+  /*background-color: #67418d;*/
+  background-color: white;
+  margin-top: 30px;
+}
+
+.imagen {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -55%);
+  }
+
+.containerDos:hover .imagen {
+  opacity: 0.3;
+}
+
+.containerDos:hover .middle {
+  opacity: 1;
+    }
+
+.textDos {
+  background-color: #2874A6;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+
+}
+
+#noticias{
+  height:200px;
+  width:80%;
+  overflow:auto;
+  background-color:white;
+  color:black;
+  font-family:"Homer Simpson", cursive;
+  padding:10px;
+}
+
+#noticiasTitulo{
+  text-align: center;
+  font-family: fantasy;
+}
+
+
+#zonCopyRight{
+  background-color: #273746;
+  color: white;
+  border-color: white;
+}
+
+#nosotros{
+  font-size:130%
+}
