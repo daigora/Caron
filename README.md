@@ -5,7 +5,7 @@ Daniel Esteban Ladino Torres 20142020043
 
 Diego Alejandro Correa Ramírez 20141020021
 
-Jhon Janer Castellanos 201310
+Jhon Janer Castellanos Sanchez 20131020045
 
 Diego Alejandro Rodríguez Ayala 20142020068
 
@@ -185,12 +185,12 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 ![](/images/estimacionTiempos.PNG)
 
 **Cronograma**
-![](/images/cro1.png)
-![](/images/cro2.png)
-![](/images/cro3.png)
-![](/images/cro4.png)
-![](/images/cro5.png)
-![](/images/cro6.png)
+![](/images/cro1.PNG)
+![](/images/cro2.PNG)
+![](/images/cro3.PNG)
+![](/images/cro4.PNG)
+![](/images/cro5.PNG)
+![](/images/cro6.PNG)
 ![](/images/cro7.png)
 ![](/images/cro8.png)
 ![](/images/cro9.png)
