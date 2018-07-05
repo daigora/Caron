@@ -185,7 +185,6 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 ![](/images/estimacionTiempos.PNG)
 
 **Cronograma**
-
 ![](/images/cro1.png)
 ![](/images/cro2.png)
 ![](/images/cro3.png)
@@ -196,6 +195,7 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 ![](/images/cro8.png)
 ![](/images/cro9.png)
 ![](/images/cro10.png)
+
 
 
 **Diagrama de flujo del proyecto**
