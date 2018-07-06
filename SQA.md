@@ -97,8 +97,8 @@ El establecimiento de una documentación mínima aceptable se hace en base a la 
 ![](/images/Documentacion_plan_calidad1.PNG)
 ![](/images/Documentacion_plan_calidad2.PNG)
 
-##Revisiones
-###objetivo
+## Revisiones
+### objetivo
 
 Objetivo: 
 
