@@ -1,4 +1,4 @@
-# Plan de calidad
+﻿# Plan de calidad
 
 ## Objetivos:
 
@@ -20,7 +20,7 @@ El estándar de calidad aquí definido se adscribe a su vez a los siguientes est
 
 
 
-## Estandares, practicas y normas
+## Estándares, prácticas y normas
 
 ### Objetivos
 
@@ -68,7 +68,7 @@ Los objetivos de cada pista de ejecución son:
   - Validar la facilidad de uso de la solución desde la perspectiva de los usuarios.
   - Maximizar el éxito y minimizar los riesgos asociados con la implementación y las operaciones de la solución en los entornos de destino de la solución.
 
-- Implementacion
+- Implementación
   - Integrar una solución correctamente en producción dentro de los entornos designados.
   - Transferir la responsabilidad de la entrega restante de la solución de un equipo de proyecto a equipos de operaciones y soporte técnico tan pronto y de manera tan fluida como sea posible.
 
@@ -83,3 +83,15 @@ Los puntos de control, que son un tema central en MSF, se usan para planear y su
 - Proporcionar puntos de aprobación del trabajo antes de avanzar.
 
 MSF distingue entre dos tipos de puntos de control: puntos de control principales y puntos de control provisionales. Los puntos de control principales marcan la finalización de actividades y entregas principales, incluido el final de las actividades planeadas para una pista. El equipo define los puntos de control provisionales para indicar el progreso en una pista y segmentar actividades de gran envergadura en piezas viables.
+
+## Documentación:
+
+### Objetivo:
+
+El control de la documentación del proyecto tiene como objetivo la gestión de documentos relevantes del proyecto a través del manejo de versiones y siguiendo unos documentos mínimos establecidos por la metodología ágil DevOps, con el fin de detectar fallas e inconformidades en el proyecto en una etapa temprana del mismo, así como llevar a cabo una retroalimentación de las necesidades y requerimientos, y dejar una base fundamental para el desarrollo de nuevos proyectos. 
+
+### Documentación mínima aceptable:
+
+El establecimiento de una documentación mínima aceptable se hace en base a la metodología DevOps, donde se determinan unos documentos por fase. En la Tabla a continuación, se estipulan los documentos junto con sus formalidades asociadas como título, versionamiento, revisión y aceptación, y disponibilidad de los documentos.
+
+![](/images/Documentacion_plan_calidad.PNG)
