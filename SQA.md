@@ -94,4 +94,5 @@ El control de la documentación del proyecto tiene como objetivo la gestión de 
 
 El establecimiento de una documentación mínima aceptable se hace en base a la metodología DevOps, donde se determinan unos documentos por fase. En la Tabla a continuación, se estipulan los documentos junto con sus formalidades asociadas como título, versionamiento, revisión y aceptación, y disponibilidad de los documentos.
 
-![](/images/Documentacion_plan_calidad.PNG)
+![](/images/Documentacion_plan_calidad1.PNG)
+![](/images/Documentacion_plan_calidad2.PNG)
