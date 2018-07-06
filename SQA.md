@@ -96,3 +96,16 @@ El establecimiento de una documentación mínima aceptable se hace en base a la 
 
 ![](/images/Documentacion_plan_calidad1.PNG)
 ![](/images/Documentacion_plan_calidad2.PNG)
+
+
+| Revisión | Descripción |
+
+| ----- | ---- |
+
+| Inspección de requerimientos | Se asegura que se cumplen los requerimientos especificados por el cliente |
+| Revisión crítica del diseño     | Descripción de revisión crítica y del diseño Arquitectura|
+|Verificación y validación | Descripción de verificación y validación |
+|Auditoria funcional |Descripción de Auditoria Funcional |
+|Auditoria en procesos | Descripción de Auditoria en procesos. |
+|Revisión administrativa |Descripción de la Revisión administrativa.  |
+|Revisión de pruebas |Descripción de Revisión de pruebas.|
