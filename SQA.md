@@ -1,8 +1,8 @@
 # Plan de calidad
 
-##Objetivos:
+## Objetivos:
 
-###Objetivos del plan:
+### Objetivos del plan:
 
 Es objeto del presente documento:
 - Establecer el conjunto mínimo de requerimientos y recomendaciones técnicas que estandaricen el proceso de desarrollo de software en las fases definidas por las metodologías de aplicación.
@@ -12,7 +12,7 @@ Es objeto del presente documento:
 -	Estandarizar las herramientas de gestión asociadas a las fases del ciclo de vida del proceso de desarrollo del software.
 -	Enfatizar las necesidades de gestión de la calidad de los productos a implantar orientadas a minimizar al máximo los fallos del servicio en el entorno de producción.
 
-##Referencias:
+## Referencias:
 
 El estándar de calidad aquí definido se adscribe a su vez a los siguientes estándares:
 -	Los definidos por la Organización Internacional para la Estandarización (ISO). En especial cabe destacar la norma ISO 9001:2000 que especifica los requisitos para un sistema de gestión de la calidad, así como el estándar ISO/IEC 9126:1991Ingeniería del Software – Calidad de Producto, la cual contiene un modelo de calidad y medición que permite la evaluación de la calidad de un producto software.
