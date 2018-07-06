@@ -98,9 +98,7 @@ El establecimiento de una documentación mínima aceptable se hace en base a la 
 ![](/images/Documentacion_plan_calidad2.PNG)
 
 ## Revisiones
-### objetivo
-
-Objetivo: 
+### Objetivo:
 
 Realizar una revisión del estado de avance en la implementación de un sistema de agendamiento de citas en una institución carcelaria (CARÓN). 
 
