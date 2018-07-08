@@ -4,11 +4,15 @@
   "description": "Backend del aplicativo caron",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Grupo Caron",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
-  }
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {}
 }
