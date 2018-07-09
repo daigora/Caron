@@ -181,7 +181,8 @@ Para una mayor referencia o más detalle, puede consultar:
 
 ## Glosario
 
-**Bug:** Desperfecto en un componente o sistema que puede causar que el componente o sistema falle en desempeñar las funciones requeridas
+**Bug:** Desperfecto en un componente o sistema que puede causar que el componente o sistema falle en desempeñar las funciones requeridas.
+
 **Disponibilidad:** Grado en el cual un componente o sistema es operacional y accesible cuando su uso es requerido.
 **Efectividad:** Capacidad de producir un resultado esperado
 **Eficiencia:** Capacidad de un producto de software de proveer el rendimiento apropiado, relativo a la cantidad de recursos usados bajo las condiciones establecidas.
