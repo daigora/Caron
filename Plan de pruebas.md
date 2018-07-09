@@ -184,17 +184,31 @@ Para una mayor referencia o más detalle, puede consultar:
 **Bug:** Desperfecto en un componente o sistema que puede causar que el componente o sistema falle en desempeñar las funciones requeridas.
 
 **Disponibilidad:** Grado en el cual un componente o sistema es operacional y accesible cuando su uso es requerido.
+
 **Efectividad:** Capacidad de producir un resultado esperado
+
 **Eficiencia:** Capacidad de un producto de software de proveer el rendimiento apropiado, relativo a la cantidad de recursos usados bajo las condiciones establecidas.
+
 **Entorno de prueba:** Un entorno que contiene hardware, instrumentación, simuladores, herramientas de software y otros elementos de soporte necesarios para conducir una prueba.
+
 **Error:** Acción humana que produce un resultado incorrecto.
+
 **Estabilidad:** La capacidad del producto de software para evitar efectos no deseados de modificaciones de software
+
 **Estándar:** Es un documento establecido por consenso, aprobado por un cuerpo reconocido, y que ofrece reglas, guías o características para que se use repetidamente.
+
 **Fallo:** Manifestación física o funcional de un defecto.
-**Funcionalidad:** Capacidad del producto de software para proveer las funciones para la cual fue diseñado-
+
+**Funcionalidad:** Capacidad del producto de software para proveer las funciones para la cual fue diseñado.
+
 **Prueba de regresión:** Funcionalidades no directamente involucradas en el desarrollo, pero cuyos componentes están siendo afectados y por ende deben probarse para asegurar que continúan funcionando adecuadamente.
+
 **Pruebas de caja blanca:** Pruebas basadas en un análisis de la estructura interna del componente o sistema.
+
 **Prueba de caja negra:** Pruebas funcionales o no funcionales, sin referirse a la estructura interna del componente o sistema.
+
 **SQA:** Documento que contiene todas las especificaciones del plan de calidad de un proyecto de software.
+
 **Tester:** Persona encargada de planificar y llevar a cabo pruebas de software.
+
 **Versión:** Proceso de asignación de un nombre, código o número único, a un software para indicar su nivel de desarrollo.
