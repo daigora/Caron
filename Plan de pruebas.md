@@ -1,6 +1,4 @@
-﻿# Plan de pruebas
-
-## Objetivos:
+﻿# Plan de Pruebas
 
 ### Historial de Versiones:
 
@@ -25,7 +23,26 @@
   </tbody>
 </table>
 
-## Referencias:
+## Información del Proyecto:
+
+<table summary="Información del Proyecto">
+  <thead>
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Detalle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Empresa / Organización</td>
+      <td>Caronsoft</td>
+    </tr>
+    <tr>
+      <td>Proyecto</td>
+      <td>Caron</td>
+    </tr>
+  </tbody>
+</table>
 
 El estándar de calidad aquí definido se adscribe a su vez a los siguientes estándares:
 -	Los definidos por la Organización Internacional para la Estandarización (ISO). En especial cabe destacar la norma ISO 9001:2000 que especifica los requisitos para un sistema de gestión de la calidad, así como el estándar ISO/IEC 9126:1991 Ingeniería del Software – Calidad de Producto, la cual contiene un modelo de calidad y medición que permite la evaluación de la calidad de un producto software.
