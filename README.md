@@ -1,4 +1,6 @@
 ﻿# CARÓN
+![](/logo4.png)
+
 Maddyzeth Ariza Riaño 20132020101
 
 Daniel Esteban Ladino Torres 20142020043
@@ -17,11 +19,11 @@ María Camila Guerrero Giraldo 20142020051
 
 **Problemática que resuelve :**
 
-Las visitas que se dan durante sábados y domingos dentro de los centros de reclusión consisten en un procedimiento extenso, tedioso y sin organización. Para solicitar la cita que permite a miles de mujeres y hombres ver a un familiar que está recluido se vive todo un viacrucis, las personas deben estar desde las 4 o 5 AM esperando la llegada a un primer filtro, posteriormente se les solicita el registro donde otro empleado solicita una foto de medio cuerpo, la cédula de ciudadanía y una fotocopia de la misma. Nada más este proceso ya ha tomado un tiempo considerable.
+Las visitas que se dan durante sábados y domingos dentro de los centros de reclusión consisten en un procedimiento extenso, tedioso y sin organización. Para solicitar la cita que permite a miles de mujeres y hombres ver a un familiar que está recluido, se vive todo un viacrucis; las personas deben estar desde las 4 o 5 AM esperando la llegada a un primer filtro, posteriormente se les solicita el registro donde otro empleado solicita una foto de medio cuerpo, la cédula de ciudadanía y una fotocopia de la misma. Nada más este proceso ya ha tomado un tiempo considerable.
 
-Luego, vienen procesos de asignación de identificadores que se hace de una manera muy &quot;rústica&quot; , pues se escribe en el brazo de la persona el número, la siguiente estación , es la estación más importante pues en esta se imprime un ticket que contiene información como: nombre del interno, patio en el que se encuentra, nombre del visitante, parentesco con el recluso y número de turno. Finalmente vienen las estaciones de requisa de visitantes y los elementos que se piensan ingresar a la cárcel.
+Luego, vienen procesos de asignación de identificadores que se hace de una manera muy &quot;rústica&quot;, pues se escribe en el brazo de la persona el número. La siguiente estación, es la estación más importante pues en esta se imprime un ticket que contiene información como nombre del interno, patio en el que se encuentra, nombre del visitante, parentesco con el recluso y número de turno. Finalmente vienen las estaciones de requisa de visitantes y los elementos que se piensan ingresar a la cárcel.
 
-Este procedimiento dura alrededor de 1 hora por persona, si todo sale bien y no hay problemas con la información del visitante y los objetos que porta. No obstante, los inconvenientes en registro y requisas son más comunes de lo que parecen, es por eso que ese tiempo puede variar considerablemente y ralentizar el procedimiento de otros visitantes. De igual forma , los registros de visitas no se consignan de forma correcta y esta información que es importante para el establecimiento penitenciario no se obtiene de manera oportuna. Se observa entonces, que el problema central para visitas en los centros de reclusión es el tiempo que se pierde en filtros demandantes que podrían disminuir con ayuda de un sistema que reúna la información previamente.
+Este procedimiento dura alrededor de 1 hora por persona, si todo sale bien y no hay problemas con la información del visitante y los objetos que porta. No obstante, los inconvenientes en registro y requisas son más comunes de lo que parecen, es por eso que ese tiempo puede variar considerablemente y ralentizar el procedimiento de otros visitantes. De igual forma, los registros de visitas no se consignan de forma correcta y esta información que es importante para el establecimiento penitenciario no se obtiene de manera oportuna. Se observa entonces, que el problema central para visitas en los centros de reclusión es el tiempo que se pierde en filtros demandantes que podrían disminuir con ayuda de un sistema que reúna la información previamente.
 
 **Definición del proyecto:**
 
@@ -29,19 +31,19 @@ El proyecto de software consiste en un aplicativo web orientado a facilitar y ag
 
 El proyecto cuenta con 5 módulos principales:
 
-1. **Registro de usuarios:** Destinado al registro de información básica de cada actor del sistema (visitante, empleado centro carcelario y recluso), el visitante y el empleado deberán registrarse en el sistema manualmente, mientras que los empleados registran a los reclusos de los cuales son responsables.
-2. **Solicitud de visita:** Módulo encargado de solicitar una visita al sistema, el visitante deberá proveer información adicional a la hora de solicitar una visita, tales como el parentesco, documento de identificación, motivo de la visita, ingreso de elementos al centro carcelario con destino al recluso y etc. La solicitud luego se le remite al empleado a cargo del recluso que se va a visitar.
+1. **Registro de usuarios:** Destinado al registro de información básica de cada actor del sistema (visitante, empleado centro carcelario y recluso); el visitante y el empleado deberán registrarse en el sistema manualmente, mientras que los empleados registran a los reclusos de los cuales son responsables.
+2. **Solicitud de visita:** Módulo encargado de solicitar una visita al sistema, el visitante deberá proveer información adicional a la hora de solicitar una visita, tales como el parentesco, documento de identificación, motivo de la visita, ingreso de elementos al centro carcelario con destino al recluso, etc. La solicitud luego se le remite al empleado a cargo del recluso que se va a visitar.
 3. **Verificación de requerimientos del visitante:** Una vez remitida la solicitud de la visita, el empleado del centro carcelario se encargará de verificar y validar la información anexada por el visitante, así mismo verificará la condición del recluso, tales como su estado (disponible, aislado, hospitalizado, fuera del centro carcelario), la voluntad de asistir a la visita y en caso de que se vayan a ingresar elementos, verificar que cumplen con las normas del centro carcelario.
-4. **Agendamiento de citas:** Finalmente dependiendo del resultado del módulo anterior, se verificará la disponibilidad de citas en el calendario del centro carcelario y se le agendará una cita, la cual se le notificará por medio de una notificación en el aplicativo y un correo electrónico que informará el resultado de la solicitud, si ésta no es aprobada, se le informará los requerimientos que no cumplió y si es aprobada se le informará el día, la hora, el lugar, la sala de visita, y las recomendaciones a seguir al momento de la visita, así mismo se le enviará una etiqueta en formato PDF con código de barras y la información del visitante y el recluso que va a visitar que deberá imprimir y portar el día de la visita.
+4. **Agendamiento de citas:** Finalmente, dependiendo del resultado del módulo anterior, se verificará la disponibilidad de citas en el calendario del centro carcelario y se le agendará una cita, la cual se le notificará por medio de una notificación en el aplicativo y un correo electrónico que informará el resultado de la solicitud, si ésta no es aprobada, se le informará los requerimientos que no cumplió y si es aprobada se le informará el día, la hora, el lugar, la sala de visita, y las recomendaciones a seguir al momento de la visita, así mismo se le enviará una etiqueta en formato PDF con código de barras y la información del visitante y el recluso que va a visitar que deberá imprimir y portar el día de la visita.
 5. **Métricas e histórico de uso:** Al momento de realizarse las visitas y las solicitudes, la información quedará guardada para uso futuro, tanto para consulta como análisis. Este histórico lo podrán consultar tanto los visitantes como los empleados del centro carcelario siempre que quieran, la información de los reclusos sólo puede ser visualizada por los empleados que los vigilan, mientras que las métricas de uso definidas solo serán accesibles a los administradores como herramienta en la toma de decisiones.
 
 **Objetivos:**
 
-**General:**
+**Objetivo General:**
 
 Entregar un prototipo de plataforma para la gestión de las visitas carcelarias partiendo de la obligación de orden, facilidad y accesibilidad de los establecimientos carcelarios, teniendo una visión sistémica de las necesidades de los reclusos, sus cercanos y los empleados encargados de diligenciar todo el proceso de planificación, realización y evaluación de las visitas, con el fin de brindar un sistema que cumpla con las exigencias legales hacias sus involucrados.
 
-**Especificos:**
+**Objetivos Específicos:**
 
 - Apoyar la planificación de la oferta de cupos de visita y sus locaciones.
 - Mantener y recuperar la información de los reclusos (con su ubicación en el centro penitenciario), de sus visitantes y de los encargados de controlar la visita.
@@ -67,10 +69,10 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 - El proyecto será orientado únicamente a las instituciones penitenciarias de Bogotá.
 - El tipo de ítems que se pueden ingresar en la visita, será el acordado por INPEC en la resolución 6305de 20091.
 
-**Criterios de Exito**
+**Criterios de Éxito**
 
 1. La información disponible debe ser encontrada fácilmente y estar disponible para los stakeholder del proyecto según sus necesidades.
-2. La plataforma debe adaptarse a la legislación vigente de la región donde sea vaya a desplegada.
+2. La plataforma debe adaptarse a la legislación vigente de la región donde vaya a ser desplegada.
 3. Se debe poder delimitar los derechos de acceso al control y cambio de la información de la plataforma.
 4. La plataforma debe ser amigable, intuitiva y de navegación ágil.
 5. Se debe cumplir con los tres criterios mínimos de seguridad.
@@ -82,13 +84,13 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
 8. Cada vez que quiera registrar una visita debe autenticarse los datos suministrados del visitante ante un ente externo.
 9. La infraestructura tecnológica debe contar un sistema de duplicación de respaldo ante cualquier fallo.
 10. La infraestructura tecnológica debe ser externa al ente penitenciario y debe garantizar su continuo funcionamiento.
-11. La administración de la plataforma debe contar con la posibilidad de  acceso remoto.
+11. La administración de la plataforma debe contar con la posibilidad de acceso remoto.
 12. La plataforma debe poder migrar la información desde documentos de archivo planos.
 
 **Listado de tareas y construcción**
 
 * (89) Fase inicial de contratación
-    * (90) Reunion informativa
+    * (90) Reunión informativa
     * (91) Descripción de requisitos funcionales
     * (92) Visitas a centros penitenciarios
     * (93) Firma de contrato
@@ -123,7 +125,7 @@ El rol de visitante lo cumplen aquellos familiares o cercanos de algún recluso,
         * (41) Agendamiento de citas:
             * (68) Modificar estado de la solicitud
             * (42) Notificar respuesta de solicitud
-            * (43) Desplegar boletin de Recomendaciones
+            * (43) Desplegar boletín de Recomendaciones
         * (44) Documentos:
             * (45) Cargar archivos
             * (46) Generar ticket de visita en PDF
