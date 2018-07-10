@@ -5,7 +5,7 @@ const { routeVisita } = require("./InterfacesWeb/InterfazVisita");
 const { routeVisitante } = require("./InterfacesWeb/InterfazVisitante");
 var bodyParser = require('body-parser')
 const PORT = process.env.PORT || 5000;
-
+console.log("process.env: ",process.env);
 var app = express();
 app.use(bodyParser.json());
 app.use(routeVisitante);
