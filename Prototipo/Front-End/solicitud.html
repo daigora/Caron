@@ -22,10 +22,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">Perfil</span></a>
+              <a class="nav-link" href="inicio.html">Inicio <span class="sr-only">Perfil</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Agenda</a>
+              <a class="nav-link" href="solicitud.html">Agenda </a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="#">Notificaciones</a>
@@ -36,7 +36,7 @@
           </ul>
           <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Búsqueda</button>
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Búsqueda</button>
           </form>
         </div>
       </nav>
@@ -45,39 +45,123 @@
 
 
 <main role="main" class="container-fluid">
-       
-    <div class="modal-body row">          
-                <div class="col-md-12  fondoContainer ">
-                  <h4 class="mb-3">Información Personal</h4>
-                  <form class="needs-validation" novalidate>
-                    <div class="row">
-                        <div class="col-md-6 ">
-                          <label for="country">Nombre de Recluso</label>
-                          <select class="custom-select d-block w-100" id="country" required>
-                            <option value="">Seleccione...</option>
-                            <option>Pedro Andres Pérez Rojas</option>
-                            <option>Federico Alejandro Carreño Vargas</option>
-                          </select>
-                          <div class="invalid-feedback">
-                            Por favor seleccione un recluso
-                          </div>
-                        </div>
-                        </div>
-
-
-                        <div class="row">
-                            <div class="col-md-4 mb-2">
-                                <label for="meeting">Fecha de la visita : </label>
-                            </div>
-                            <div class="col-md-6 mb-2">
-                                <input id="meeting" type="date" value="2018-07-08"/>
-                            </div>
-                          </div>
-
-                  </form> 
+<div class="modal-body row">          
+    <div class="col-md-8  fondoContainer ">
+      <h4 class="mb-3">Solicitud de visita</h4>
+      <form class="needs-validation" validate>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName">Seleccione el recluso que va a visitar</label>
+            <div class="form-group">
+                <label for="sel1">Nombre</label>
+                <select class="form-control" id="sel1" required>
+                  <option>Juan Perez</option>
+                  <option>Raul Bohorquez</option>
+                  <option>Fernando Lopez</option>
+                  <option>Gabriel Toro</option>
+                </select>
+              </div>
+          </div>
+          <div class="col-md-6 mb-3">
+              <label for="firstName">Seleccione el id del recluso (Opcional)</label>
+              <div class="form-group">
+                  <label for="sel1">ID</label>
+                  <select class="form-control" id="sel2" disabled>
+                    <option>R009</option>
+                    <option>R006</option>
+                    <option>R008</option>
+                    <option>R111</option>
+                  </select>
                 </div>
+            </div>
+        </div>
+        <div class="mb-3">
+
+            <div class="form-group row">
+                <label for="example-date-input" class="col-2 col-form-label">Fecha (Obligatorio)</label>
+                <div class="col-10">
+                  <input class="form-control" type="date" value="2018-07-19" id="example-date-input">
+                </div>
+              </div>
+            <div class="invalid-feedback">
+              Por favor seleccione una fecha
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="inicio">Hora Inicio</label>
+            <input class="form-control" type="time" value="13:45:00" id="example-time-input" required>
+            <div class="invalid-feedback">
+              Nombre de usuario.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="fin">Hora Fin</label>
+            <input class="form-control" type="time" value="16:45:00" id="example-time-input" required>
+            <div class="invalid-feedback">
+              Ingrese una Contraseña.
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="mb-3">
+                <label for="motivo">Motivo de la visita <span class="text-muted">(Obligatorio)</span></label>
+                <input type="motivo" class="form-control" id="motivo" placeholder="Describa el motivo de la visita" enabled>
+                <div class="invalid-feedback">
+                  Por favor ingrese el motivo de su visita
+                </div>
+              </div>
+
+        <div class="mb-3">
+                <label for="celular">Implementos para llevar <span class="text-muted">(Obligatorio)</span></label>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="">Comida</label>
+                  </div>
+                  <div class="checkbox">
+                    <label><input type="checkbox" value="">Libros</label>
+                  </div>
+                  <div class="checkbox">
+                    <label><input type="checkbox" value="" >Ropa</label>
+                  </div>
+                  <div class="checkbox">
+                      <label><input type="checkbox" value="" >Tabaco</label>
+                    </div>
+                  <div class="checkbox">
+                      <label><input type="checkbox" value="" >Cobijas</label>
+                    </div>
+                  <div class="checkbox">
+                          <label><input type="checkbox" value="" >Elementos de Aseo</label>
+                  </div>
+                  <div class="checkbox">
+                      <label><input type="checkbox" value="" >Otros</label>
+              </div>
               
-    </div>
+     
+
+        <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="cedula">Adjunte foto actual de medio cuerpo donde se vea su rostro</label>
+              <input id="input-b1" name="input-b3" type="file" class="file" >
+              <div class="invalid-feedback">
+               Adjunte un archivo válido.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="cartaCompromiso">Adjunte documento Notaria</label>
+              <input id="input-b2" name="input-b4" type="file" class="file" >
+              <div class="invalid-feedback">
+                  Adjunte un archivo válido.
+              </div>
+            </div>
+            
+          </div>
+
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block btn-warning" type="submit">Solicitar agendamiento de cita</button>
+      </form> 
+</div>
+</div>
 </main>
 
 

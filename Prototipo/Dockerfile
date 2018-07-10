@@ -5,13 +5,12 @@ MAINTAINER "Diego Alejandro Rodriguez Ayala <diego.magno120@gmail.com>"
 # Environment variable
 ENV DISTRO stretch
 ENV NODE_VERSION node_10.x
-ENV WWW /usr/share/nginx/html
-ENV DB /DB/Caron
+ENV PG_VERSION 10
+ENV FRONT /usr/share/nginx/html
+ENV BACK /node/caron
 
-# Base
-RUN apt-get update && \
-    apt-get upgrade -y && \
-    apt-get install --no-install-recommends --no-install-suggests -y \
+# Install Base-Dev
+RUN apt-get update && apt-get install --no-install-recommends --no-install-suggests -y \
       vim \
       curl \
       gnupg \
@@ -30,37 +29,28 @@ RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ $DISTRO-pgdg main" >> /et
     curl -sSL https://nginx.org/keys/nginx_signing.key | apt-key add - && \
     apt-get update
 
-# Core
+# Install Core
 RUN apt-get install --no-install-recommends --no-install-suggests -y \
-      postgresql-10 \
+      postgresql-$PG_VERSION \
       nginx \
       nodejs && \
-      rm -rf /var/lib/apt/lists/*
+      rm -rf /var/lib/apt/lists/* && \
+      rm -rf $FRONT/* # Remove default nginx front-end
 
-# RUN rm -rf $WWW*
-#
 # Front-end
-COPY Fron-End/www/  $WWW/
+COPY ./Front-End/www/ $FRONT/
 
 # Back-end
-COPY Back-End/ /Back-End/
+COPY ./Back-End/ $BACK/
 
 # Data Base
-COPY Modelado_de_BD/CARON_TOTAL.sql $DB/caron.sql
+COPY ./Modelado_de_BD/CARON_TOTAL.sql /script.sql
 
-# Port Ngnix server
-EXPOSE 80
-
-# Port Postgresql DB
-EXPOSE 5432
-
-# Port Node
-EXPOSE 500
+# Port Ngnix Postgresql Node
+EXPOSE 80 5432 5000
 
 # Start up
-CMD service postgresql start && \
+CMD service postgresql start >> /dev/null && \
     service nginx start && \
-    su - postgres && \
-    psql -f $DB/caron.sql && \
-    exit && \
-    node /Back-End/index.js
+    su - postgres -c "psql -f /script.sql >> /dev/null" && \
+    node $BACK/index.js

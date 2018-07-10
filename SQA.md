@@ -102,7 +102,7 @@ El establecimiento de una documentación mínima aceptable se hace en base a la 
 
 Realizar una revisión del estado de avance en la implementación de un sistema de agendamiento de citas en una institución carcelaria (CARÓN).
 
-![](/images/revisiones.png)
+![](/images/revisiones2.png)
 
 ## Herramientas, técnicas y metodologías
 
