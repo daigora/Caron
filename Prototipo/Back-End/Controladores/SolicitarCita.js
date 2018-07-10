@@ -23,7 +23,8 @@ exports.solicitarCita = function(dataVisita, idusuario) {
             }
             throw new Error("Visitante inexistente");
         })
-        .then(() => {
+        .then((resVisita) => {
+            console.log("resVIsita: ", );
             resolve({
                 status: 1
             });
