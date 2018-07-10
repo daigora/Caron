@@ -1,20 +1,24 @@
 const { client } = require("./Conexion");
 
 exports.crearVisita = function(dataVisita) {
-    const text = "INSERT INTO public.visita("+
+    const query = {
+        text: "INSERT INTO public.visita("+
         "idcontrolador, idportero, idestadovisita, idrecluso,"+
         "fechavisita, horaini, horafin, motivo, numticket, idvisitante) "+
-        "VALUES (null, null, $1, $2, $3, $4, $5, $6, null, $7);";
-    const values = [
-        dataVisita.estado,
-        dataVisita.recluso,
-        dataVisita.fecha,
-        dataVisita.horaini,
-        dataVisita.horafin,
-        dataVisita.motivo,
-        dataVisita.visitante
-    ];
-    return client.query(text, values);
+        "VALUES (null, null, $1, $2, $3, $4, $5, $6, null, $7) RETURNING *",
+        values: [
+            dataVisita.estado,
+            dataVisita.recluso,
+            dataVisita.fecha,
+            dataVisita.horaini,
+            dataVisita.horafin,
+            dataVisita.motivo,
+            dataVisita.visitante
+        ],
+        rowMode: 'array'
+    };
+
+    return client.query(query);
 };
 
 exports.consultarVisitaPorVisitante = function(idvisitante) {

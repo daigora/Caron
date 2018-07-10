@@ -1,5 +1,6 @@
 const { crearVisita } = require("../EntidadesPersistencia/Visita");
 const { consultarVisitante } = require("../Controladores/ConsultarVisitante");
+const { guardarItemVisita } = require("../EntidadesPersistencia/ItemVisita");
 
 /*
 dataVisita =
@@ -8,7 +9,8 @@ dataVisita =
     fecha,
     horaini,
     horafin,
-    motivo
+    motivo,
+    items,
 }
 */
 
@@ -24,7 +26,14 @@ exports.solicitarCita = function(dataVisita, idusuario) {
             throw new Error("Visitante inexistente");
         })
         .then((resVisita) => {
-            console.log("resVIsita: ", );
+            const idvisita = resVisita.rows[0][0];
+            var arrayItems = [];
+            dataVisita.items.forEach(iditem => {
+                arrayItems.push(guardarItemVisita(idvisita, iditem));
+            });
+            return Promise.all(arrayItems);
+        })
+        .then(() => {
             resolve({
                 status: 1
             });
