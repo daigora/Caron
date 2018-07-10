@@ -2,8 +2,9 @@ const { client } = require("./Conexion");
 
 exports.crearVisitante = function (dataVisitante) {
     const text = "INSERT INTO public.visitante "+
-    "(idusuario, idarchivo, nombres, apellidos, cedula, direccion, telefono, fechanacimiento)"+
-    "VALUES ($1, null, $2, $3, $4, $5, $6, $7);";
+        "(idusuario, idarchivo, nombres, apellidos, " +
+        "cedula, direccion, telefono, fechanacimiento)" +
+        "VALUES ($1, null, $2, $3, $4, $5, $6, $7);";
     const values = [
         dataVisitante.usuario,
         dataVisitante.nombre,
@@ -12,6 +13,23 @@ exports.crearVisitante = function (dataVisitante) {
         dataVisitante.direccion,
         dataVisitante.telefono,
         dataVisitante.fechanacimiento
+    ];
+    return client.query(text, values);
+};
+
+exports.actualizarVisitante = function (dataVisitante, idusuario) {
+    const text = "UPDATE public.visitante " +
+        "SET nombres=$1, apellidos=$2, " +
+        "cedula=$3, direccion=$4, telefono=$5, fechanacimiento=$6 " +
+        "WHERE idusuario = $7;";
+    const values = [
+        dataVisitante.nombre,
+        dataVisitante.apellido,
+        dataVisitante.cedula,
+        dataVisitante.direccion,
+        dataVisitante.telefono,
+        dataVisitante.fechanacimiento,
+        idusuario
     ];
     return client.query(text, values);
 };
