@@ -28,7 +28,7 @@ RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ $DISTRO-pgdg main" >> /et
     curl -sSL https://nginx.org/keys/nginx_signing.key | apt-key add - && \
     apt-get update
 
-# CORE
+# Core
 RUN apt-get install --no-install-recommends --no-install-suggests -y \
       postgresql-10 \
       nginx \
@@ -42,11 +42,10 @@ COPY Front-End/www/ $WWW
 # Port Ngnix server
 EXPOSE 80
 
-# STOPSIGNAL SIGTERM
-#
-# CMD ["nginx", "-g", "daemon off;"]
+# Port Postgresql DB
+EXPOSE 5432
 
 # Start up
 CMD service postgresql start && \
     service nginx start && \
-    bash
+    node
