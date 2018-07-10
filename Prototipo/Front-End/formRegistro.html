@@ -1,167 +1,151 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Formulario de Registro de Usuario</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie-edge">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
+
+<head>
+  <title>Formulario de Registro de Usuario</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie-edge">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
 <body class="fondoContainer">
-<!-- **************************** INICIO DE CODIGO ******************-->
+  <!-- **************************** INICIO DE CODIGO ******************-->
 
-<!-- Menu de Navegación -->
-
-
-<nav class="navbar navbar-expand-md navbar-dark barraNav mb-4">
-        <a class="navbar-brand" href="#"><img src="img/logo4.png" style="width:140px ; height: 50px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Atención al Ciudadano</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">Institución</a>
-            </li>
-            <li class="nav-item">
-                    <a class="nav-link " href="boletin.html">Contáctenos</a>
-                  </li>
-          </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
-            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Búsqueda</button>
-          </form>
-        </div>
-      </nav>
-<!-- Contenido -->
+  <!-- Menu de Navegación -->
 
 
-<main role="main" class="container-fluid">
-<div class="modal-body row">          
-    <div class="col-md-8  fondoContainer ">
-      <h4 class="mb-3">Formulario de Registro</h4>
-      <form class="needs-validation" validate>
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="firstName">Nombres</label>
-            <input type="text" class="form-control" id="firstName" placeholder="Ingrese su nombre" value=""  enabled required>
-            <div class="invalid-feedback">
-              Nombres requeridos.
+  <nav class="navbar navbar-expand-md navbar-dark barraNav mb-4">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo4.png" style="width:140px ; height: 50px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Atención al Ciudadano</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Institución</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="boletin.html">Contáctenos</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Búsqueda</button>
+      </form>
+    </div>
+  </nav>
+  <!-- Contenido -->
+
+
+  <main role="main" class="container-fluid">
+    <div class="modal-body row">
+      <div class="col-md-8  fondoContainer ">
+        <h4 class="mb-3">Formulario de Registro</h4>
+        <form class="needs-validation" validate>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">Nombres</label>
+              <input type="text" class="form-control" id="firstName" placeholder="Ingrese su nombre" value="" enabled required>
+              <div class="invalid-feedback">
+                Nombres requeridos.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Apellidos</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Ingrese sus apellidos" value="" enabled required>
+              <div class="invalid-feedback">
+                Apellidos requeridos.
+              </div>
             </div>
           </div>
-          <div class="col-md-6 mb-3">
-            <label for="lastName">Apellidos</label>
-            <input type="text" class="form-control" id="lastName" placeholder="Ingrese sus apellidos" value="" enabled required>
-            <div class="invalid-feedback">
-              Apellidos requeridos.
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="contrasena">Contraseña</label>
+              <input type="password" class="form-control" id="pass" placeholder="Cree una contraseña" value="" enabled required>
+              <div class="invalid-feedback">
+                Ingrese una Contraseña.
+              </div>
             </div>
-          </div>
-
-        </div>
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="Usuario">Usuario</label>
-            <input type="text" class="form-control" id="usuario" placeholder="Cree un nombre de usuario" value=""  enabled required>
-            <div class="invalid-feedback">
-              Nombre de usuario.
-            </div>
-          </div>
-          <div class="col-md-6 mb-3">
-            <label for="contrasena">Contraseña</label>
-            <input type="password" class="form-control" id="pass" placeholder="Cree una contraseña" value="" enabled required>
-            <div class="invalid-feedback">
-              Ingrese una Contraseña.
-            </div>
-          </div>
-          <div class="col-md-6 mb-3">
+            <div class="col-md-6 mb-3">
               <label for="contrasena">Confirme su contraseña</label>
-              <input type="password" class="form-control" id="pass" placeholder="Confirme su contraseña" value="" enabled required>
+              <input type="password" class="form-control" id="confirmpass" placeholder="Confirme su contraseña" value="" enabled required>
               <div class="invalid-feedback">
                 Confirmación inválida , repita nuevamente su contraseña.
               </div>
             </div>
-        </div>
-        <div class="mb-3">
-          <label for="email">Email <span class="text-muted">(Obligatorio)</span></label>
-          <input type="email" class="form-control" id="email" placeholder="usted@ejemplo.com" enabled>
-          <div class="invalid-feedback">
-            Por favor ingrese una dirección de correo electrónico
           </div>
-        </div>
-
-        <div class="mb-3">
-                <label for="telefono">Telefono <span class="text-muted">(Obligatorio)</span></label>
-                <input type="telefono" class="form-control" id="telefono" placeholder="Su telefono aquí" enabled>
-                <div class="invalid-feedback">
-                  Por favor ingrese un telefono fijo
-                </div>
-              </div>
-
-        <div class="mb-3">
-                <label for="celular">Celular <span class="text-muted">(Opcional)</span></label>
-                <input type="text" class="form-control" id="celular" placeholder="Su celular aquí " enabled>
-                <div class="invalid-feedback">
-                    Por favor ingrese un número celular
-                </div>
-                </div>
-
-        <div class="mb-3">
-          <label for="address">Dirección de Residencia</label>
-          <input type="text" class="form-control" id="address" placeholder="Su dirección aquí" value="" enabled required>
-          <div class="invalid-feedback">
-            Por favor ingrese su dirección de residencia
+          <div class="mb-3">
+            <label for="email">Email
+              <span class="text-muted">(Obligatorio)</span>
+            </label>
+            <input type="email" class="form-control" id="email" placeholder="usted@ejemplo.com" enabled>
+            <div class="invalid-feedback">
+              Por favor ingrese una dirección de correo electrónico
+            </div>
           </div>
-        </div>
-
-        <div class="row">
+          <div class="mb-3">
+            <label for="telefono">Telefono
+              <span class="text-muted">(Obligatorio)</span>
+            </label>
+            <input type="telefono" class="form-control" id="phone" placeholder="Su telefono aquí" enabled>
+            <div class="invalid-feedback">
+              Por favor ingrese un telefono fijo
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="address">Dirección de Residencia</label>
+            <input type="text" class="form-control" id="address" placeholder="Su dirección aquí" value="" enabled required>
+            <div class="invalid-feedback">
+              Por favor ingrese su dirección de residencia
+            </div>
+          </div>
+          <div class="row">
             <div class="col-md-6 mb-3">
               <label for="cedula">Adjunte imagen de su cédula</label>
-              <input id="input-b1" name="input-b1" type="file" class="file" >
+              <input id="input-b1" name="input-b1" type="file" class="file">
               <div class="invalid-feedback">
-               Adjunte un archivo válido.
+                Adjunte un archivo válido.
               </div>
             </div>
             <div class="col-md-6 mb-3">
               <label for="cartaCompromiso">Adjunte PDF de carta de compromiso</label>
-              <input id="input-b2" name="input-b2" type="file" class="file" >
+              <input id="input-b2" name="input-b2" type="file" class="file">
               <div class="invalid-feedback">
-                  Adjunte un archivo válido.
+                Adjunte un archivo válido.
               </div>
             </div>
-            
           </div>
-
-        <hr class="mb-4">
-        <button class="btn btn-primary btn-lg btn-block btn-warning" type="submit">Regístrese en el sistema</button>
-      </form> 
-</div>
-  
-<div class="col-md-4 fondoContainer ">
-    <div class="card mx-auto" style="width: 14rem;">
-            <img class="card-img-top" src="img/noFoto.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Foto de perfil</h5>
-                <a href="#" class="btn btn-primary btn-warning">Actualice su imagen</a>
-            </div>
+          <hr class="mb-4">
+          <button class="btn btn-primary btn-lg btn-block btn-warning" type="submit">Regístrese en el sistema</button>
+        </form>
+      </div>
+      <div class="col-md-4 fondoContainer ">
+        <div class="card mx-auto" style="width: 14rem;">
+          <img class="card-img-top" src="img/noFoto.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Foto de perfil</h5>
+            <a href="#" class="btn btn-primary btn-warning">Actualice su imagen</a>
           </div>
-</div>
-
-
-</div>
-</main>
-
-
-
-<!-- **************************** FIN DE CODIGO ******************-->
-<script src="js/jquery-3.2.1.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- **************************** FIN DE CODIGO ******************-->
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </body>
+
 </html>

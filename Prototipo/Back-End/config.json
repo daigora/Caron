@@ -3,7 +3,7 @@
         "user": "postgres",
         "host": "localhost",
         "database": "CARON",
-        "password": "postgres",
+        "password": "LaWeaCosmica",
         "port": 5432
     }
 }
