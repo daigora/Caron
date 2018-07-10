@@ -30,7 +30,7 @@ La pruebas realizadas a este caso de uso son:
 - Realizar cambios en los campos habilitados , incluir carácteres especiales
 - Dar clic en "Guardar cambios" y que se envie un mensaje de confirmación
 - Recargar la página y ver la información nueva.
-- 
+
 El entorno del cual partiremos para realizar la prueba será el  formulario de datos que presenta el inicio de la aplicación ya despues de que un usuario se identifica como visitante.
 
 *Responsables:*
