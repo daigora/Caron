@@ -13,9 +13,9 @@
 2. [Solicitud de cita](#example2)
 3. [Actualización de datos de visitante](#third-example)
 
-## Especificación de Caso de Prueba: Registro de usuario
-## Especificación de Caso de Prueba: Solicitud de cita
-## Especificación de Caso de Prueba: Actualización de datos de visitante
+## Especificación de Caso de Prueba: Registro de usuario <a name="example"> </a>
+## Especificación de Caso de Prueba: Solicitud de cita <a name="example2"> </a>
+## Especificación de Caso de Prueba: Actualización de datos de visitante <a name="third-example"></a>
 
 **1.Descripción:**
 
