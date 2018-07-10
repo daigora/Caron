@@ -57,6 +57,7 @@ fieldset[disabled] .btn-danger {
 .btn-danger .badge {
   text-shadow: none;
 }
+
 .btn:active,
 .btn.active {
   background-image: none;
