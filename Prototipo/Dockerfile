@@ -5,7 +5,8 @@ MAINTAINER "Diego Alejandro Rodriguez Ayala <diego.magno120@gmail.com>"
 # Environment variable
 ENV DISTRO stretch
 ENV NODE_VERSION node_10.x
-ENV WWW /usr/share/nginx/html/
+ENV WWW /usr/share/nginx/html
+ENV DB /DB/Caron
 
 # Base
 RUN apt-get update && \
@@ -15,7 +16,8 @@ RUN apt-get update && \
       curl \
       gnupg \
       apt-transport-https \
-      ca-certificates
+      ca-certificates && \
+      rm -rf /var/lib/apt/lists/*
 
 # Repositorys
 RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ $DISTRO-pgdg main" >> /etc/apt/sources.list.d/postgresql.list && \
@@ -32,12 +34,19 @@ RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ $DISTRO-pgdg main" >> /et
 RUN apt-get install --no-install-recommends --no-install-suggests -y \
       postgresql-10 \
       nginx \
-      nodejs
+      nodejs && \
+      rm -rf /var/lib/apt/lists/*
 
-RUN rm -rf $WWW*
-
+# RUN rm -rf $WWW*
+#
 # Front-end
-COPY Front-End/www/ $WWW
+COPY Fron-End/www/  $WWW/
+
+# Back-end
+COPY Back-End/ /Back-End/
+
+# Data Base
+COPY Modelado_de_BD/CARON_TOTAL.sql $DB/caron.sql
 
 # Port Ngnix server
 EXPOSE 80
@@ -45,7 +54,13 @@ EXPOSE 80
 # Port Postgresql DB
 EXPOSE 5432
 
+# Port Node
+EXPOSE 500
+
 # Start up
 CMD service postgresql start && \
     service nginx start && \
-    node
+    su - postgres && \
+    psql -f $DB/caron.sql && \
+    exit && \
+    node /Back-End/index.js
