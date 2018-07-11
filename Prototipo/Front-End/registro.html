@@ -50,7 +50,7 @@
     <div class="modal-body row">
       <div class="col-md-8  fondoContainer ">
         <h4 class="mb-3">Formulario de Registro</h4>
-        <form class="needs-validation" validate>
+        <div class="needs-validation">
           <div class="row">
             <div class="col-md-6 mb-3">
               <label for="firstName">Nombres</label>
@@ -102,13 +102,6 @@
             </div>
           </div>
           <div class="mb-3">
-            <label for="address">Dirección de Residencia</label>
-            <input type="text" class="form-control" id="address" placeholder="Su dirección aquí" value="" enabled required>
-            <div class="invalid-feedback">
-              Por favor ingrese su dirección de residencia
-            </div>
-          </div>
-          <div class="mb-3">
             <label for="cedula">Cédula/Tarjeta de Identidad
               <span class="text-muted">(Obligatorio)</span>
             </label>
@@ -121,7 +114,7 @@
             <div class="form-group row">
               <label for="example-date-input" class="col-2 col-form-label">Fecha Nacimiento (Obligatorio)</label>
               <div class="col-10">
-                <input class="form-control" type="date" value="2018-07-19" id="example-date-input">
+                <input class="form-control" type="date" value="2018-07-19" id="fechanacimiento">
               </div>
             </div>
             <div class="invalid-feedback">
@@ -152,8 +145,8 @@
             </div>
           </div>
           <hr class="mb-4">
-          <button class="btn btn-primary btn-lg btn-block btn-warning" type="submit">Regístrese en el sistema</button>
-        </form>
+          <button class="btn btn-primary btn-lg btn-block btn-warning" onclick="registroVisitante()">Regístrese en el sistema</button>
+        </div>
       </div>
       <div class="col-md-4 fondoContainer ">
         <div class="card mx-auto" style="width: 14rem;">
@@ -170,7 +163,10 @@
   <script src="js/jquery-3.2.1.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="app.js/base.js"></script>
+  <script src="app.js/registro.js"></script>
 </body>
 
 </html>

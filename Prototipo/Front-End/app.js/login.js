@@ -8,6 +8,7 @@ const login = function() {
     .then((result) => {
         if (result.data.status == 1) {
             localStorage.setItem("usuario", result.data.data.idusuario);
+            window.location.href="inicio.html";
         } else {
             throw new Error(result.data.message);
         }

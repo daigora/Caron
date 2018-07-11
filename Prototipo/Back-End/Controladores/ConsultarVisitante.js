@@ -17,7 +17,9 @@ exports.consultarVisitante = function(id) {
                         cedula: row[5],
                         direccion: row[6],
                         telefono: row[7],
-                        fechanacimiento: row[8]
+                        fechanacimiento: row[8],
+                        nickname: row[9],
+                        email: row[10]
                     }
                 })
             }

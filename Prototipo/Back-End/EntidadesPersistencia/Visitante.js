@@ -36,7 +36,10 @@ exports.actualizarVisitante = function (dataVisitante, idusuario) {
 
 exports.consultarVisitantePorUsuario = function (idUsuario) {
     const query = {
-        text: "SELECT * FROM public.visitante WHERE idusuario = $1",
+        text: "SELECT visitante.idvisitante, visitante.idusuario, visitante.idarchivo, visitante.nombres, visitante.apellidos, visitante.cedula, "+
+        "visitante.direccion, visitante.telefono, visitante.fechanacimiento, usuario.nickname, usuario.email "+
+        "FROM public.visitante as visitante, public.usuario as usuario WHERE "+
+        "visitante.idusuario = usuario.idusuario and visitante.idusuario = $1",
         values: [idUsuario],
         rowMode: 'array',
     };
@@ -45,7 +48,10 @@ exports.consultarVisitantePorUsuario = function (idUsuario) {
 
 exports.consultarVisitantePorCedula = function (cedula) {
     const query = {
-        text: "SELECT * FROM public.visitante WHERE cedula = $1",
+        text: "SELECT visitante.idvisitante, visitante.idusuario, visitante.idarchivo, visitante.nombres, visitante.apellidos, visitante.cedula, "+
+        "visitante.direccion, visitante.telefono, visitante.fechanacimiento, usuario.nickname, usuario.email "+
+        "FROM public.visitante as visitante, public.usuario as usuario WHERE "+
+        "visitante.idusuario = usuario.idusuario and visitante.cedula = $1",
         values: [cedula],
         rowMode: 'array',
     };

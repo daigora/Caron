@@ -6,16 +6,18 @@ const registroVisitante = function() {
     const email = document.getElementById("email").value;
     const phone = document.getElementById("phone").value;
     const address = document.getElementById("address").value;
+    const cedula = document.getElementById("cedula").value;
+    const fechanacimiento = document.getElementById("fechanacimiento").value;
     if (pass == confirmpass) {
         axios.post(urlBase + "/visitante", {
             "email": email,
             "pass": pass,
             "nombre": firstName,
             "apellido": lastName,
-            "cedula": "1032485940",
+            "cedula": cedula,
             "direccion": address,
             "telefono": phone,
-            "fechanacimiento": "2012-04-23T18:25:43.511Z"
+            "fechanacimiento": fechanacimiento
         })
         .then((result) => {
             if (result.data.status == 1) {
@@ -29,13 +31,14 @@ const registroVisitante = function() {
         .then((result) => {
             if (result.data.status == 1) {
                 localStorage.setItem("usuario", result.data.data.idusuario);
+                window.location.href="inicio.html";
             } else {
                 throw new Error(result.data.message);
             }
         })
         .catch((error) => {
             alert(error.message || "Ocurrio un error, por favor intentelo en unos minutos");
-        })
+        });
     } else {
         alert("Las contraseñas deben coincidir");
     }

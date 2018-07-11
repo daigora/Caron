@@ -72,7 +72,6 @@
                 Apellidos requeridos.
               </div>
             </div>
-
           </div>
           <div class="row">
             <div class="col-md-6 mb-3">
@@ -84,7 +83,7 @@
             </div>
             <div class="col-md-6 mb-3">
               <label for="contrasena">Contraseña</label>
-              <input type="password" class="form-control" id="pass" placeholder="" value="agagag" disabled required>
+              <input type="password" class="form-control" id="pass" placeholder="" value="*************" disabled required>
               <div class="invalid-feedback">
                 Contraseña.
               </div>
@@ -103,22 +102,31 @@
             <label for="email">Telefono
               <span class="text-muted">(Obligatorio)</span>
             </label>
-            <input type="email" class="form-control" id="email" placeholder="1234546" disabled>
+            <input type="email" class="form-control" id="phone" placeholder="1234546" disabled>
             <div class="invalid-feedback">
               Por favor ingrese un telefono fijo
             </div>
           </div>
-
           <div class="mb-3">
-            <label for="email">Celular
-              <span class="text-muted">(Opcional)</span>
+            <label for="cedula">Cédula/Tarjeta de Identidad
+              <span class="text-muted">(Obligatorio)</span>
             </label>
-            <input type="email" class="form-control" id="email" placeholder="312445466767" disabled>
+            <input type="text" class="form-control" id="cedula" placeholder="00000000" disabled>
             <div class="invalid-feedback">
-              Por favor ingrese un número celular
+              Por favor ingrese el número de su identificación
             </div>
           </div>
-
+          <div class="mb-3">
+            <div class="form-group row">
+              <label for="example-date-input" class="col-2 col-form-label">Fecha Nacimiento (Obligatorio)</label>
+              <div class="col-10">
+                <input class="form-control" type="date" value="2018-07-19" id="fechanacimiento" disabled>
+              </div>
+            </div>
+            <div class="invalid-feedback">
+              Por favor seleccione una fecha
+            </div>
+          </div>
           <div class="mb-3">
             <label for="address">Dirección de Residencia</label>
             <input type="text" class="form-control" id="address" placeholder="" value="Carrera 123 Esquina 4" disabled required>
@@ -126,17 +134,14 @@
               Por favor ingrese su dirección de residencia
             </div>
           </div>
-
-
           <hr class="mb-4">
-          <button class="btn btn-primary btn-lg btn-block btn-warning" type="submit">Actualizar mi información</button>
-          <button class="btn btn-primary btn-lg btn-block btn-warning" type="submit">Guardar cambios</button>
+          <a class="btn btn-primary btn-lg btn-block btn-warning" href="actualizar.html">Actualizar mi información</a>
         </form>
       </div>
 
       <div class="col-md-4 fondoContainer ">
         <div class="card mx-auto" style="width: 14rem;">
-          <img class="card-img-top" src="img/idFoto.jpg" alt="Card image cap">
+          <img class="card-img-top" src="img/noFoto.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Foto de perfil</h5>
             <a href="#" class="btn btn-primary btn-warning">Actualice su imagen</a>
@@ -147,27 +152,15 @@
 
     </div>
   </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!-- **************************** FIN DE CODIGO ******************-->
   <script src="js/jquery-3.2.1.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="app.js/base.js"></script>
+  <script src="app.js/verificarLoggin.js"></script>
+  <script src="app.js/consultar.js"></script>
 </body>
 
 </html>

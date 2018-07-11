@@ -1,174 +1,146 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Solicitud cita</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie-edge">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
+
+<head>
+  <title>Solicitud cita</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie-edge">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
 <body class="fondoContainer">
-<!-- **************************** INICIO DE CODIGO ******************-->
+  <!-- **************************** INICIO DE CODIGO ******************-->
 
-<!-- Menu de Navegación -->
-
-
-<nav class="navbar navbar-expand-md navbar-dark barraNav mb-4">
-        <a class="navbar-brand" href="#"><img src="img/logo4.png" style="width:140px ; height: 50px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="inicio.html">Inicio <span class="sr-only">Perfil</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="solicitud.html">Agenda </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">Notificaciones</a>
-            </li>
-            <li class="nav-item">
-                    <a class="nav-link " href="boletin.html">Boletín de Anuncios</a>
-                  </li>
-          </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
-            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Búsqueda</button>
-          </form>
-        </div>
-      </nav>
-
-<!-- Contenido -->
+  <!-- Menu de Navegación -->
 
 
-<main role="main" class="container-fluid">
-<div class="modal-body row">          
-    <div class="col-md-8  fondoContainer ">
-      <h4 class="mb-3">Solicitud de visita</h4>
-      <form class="needs-validation" validate>
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="firstName">Seleccione el recluso que va a visitar</label>
-            <div class="form-group">
+  <nav class="navbar navbar-expand-md navbar-dark barraNav mb-4">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo4.png" style="width:140px ; height: 50px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="inicio.html">Inicio
+            <span class="sr-only">Perfil</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="solicitud.html">Agenda </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Notificaciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="boletin.html">Boletín de Anuncios</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Búsqueda</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Contenido -->
+
+  <main role="main" class="container-fluid">
+    <div class="modal-body row">
+      <div class="col-md-8  fondoContainer ">
+        <h4 class="mb-3">Solicitud de visita</h4>
+        <div class="needs-validation">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">Seleccione el recluso que va a visitar</label>
+              <div class="form-group">
                 <label for="sel1">Nombre</label>
-                <select class="form-control" id="sel1" required>
-                  <option>Juan Perez</option>
-                  <option>Raul Bohorquez</option>
-                  <option>Fernando Lopez</option>
-                  <option>Gabriel Toro</option>
+                <select class="form-control" id="listareclusos" required onchange="seleccionarRecluso()">
                 </select>
               </div>
-          </div>
-          <div class="col-md-6 mb-3">
+            </div>
+            <div class="col-md-6 mb-3">
               <label for="firstName">Seleccione el id del recluso (Opcional)</label>
               <div class="form-group">
-                  <label for="sel1">ID</label>
-                  <select class="form-control" id="sel2" disabled>
-                    <option>R009</option>
-                    <option>R006</option>
-                    <option>R008</option>
-                    <option>R111</option>
-                  </select>
-                </div>
-            </div>
-        </div>
-        <div class="mb-3">
-
-            <div class="form-group row">
-                <label for="example-date-input" class="col-2 col-form-label">Fecha (Obligatorio)</label>
-                <div class="col-10">
-                  <input class="form-control" type="date" value="2018-07-19" id="example-date-input">
-                </div>
+                <label for="sel1">ID</label>
+                <input class="form-control" type="text" disabled id="idrecluso">
               </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <div class="form-group row">
+              <label for="example-date-input" class="col-2 col-form-label">Fecha (Obligatorio)</label>
+              <div class="col-10">
+                <input class="form-control" type="date" value="2018-07-19" id="fechavisita">
+              </div>
+            </div>
             <div class="invalid-feedback">
               Por favor seleccione una fecha
             </div>
           </div>
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="inicio">Hora Inicio</label>
-            <input class="form-control" type="time" value="13:45:00" id="example-time-input" required>
-            <div class="invalid-feedback">
-              Nombre de usuario.
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="inicio">Hora Inicio</label>
+              <input class="form-control" type="time" value="13:45:00" id="horaini" required>
+              <div class="invalid-feedback">
+                Nombre de usuario.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="fin">Hora Fin</label>
+              <input class="form-control" type="time" value="16:45:00" id="horafin" required>
+              <div class="invalid-feedback">
+                Ingrese una Contraseña.
+              </div>
             </div>
           </div>
-          <div class="col-md-6 mb-3">
-            <label for="fin">Hora Fin</label>
-            <input class="form-control" type="time" value="16:45:00" id="example-time-input" required>
+          <div class="mb-3">
+            <label for="motivo">Motivo de la visita
+              <span class="text-muted">(Obligatorio)</span>
+            </label>
+            <textarea class="form-control" id="motivo" placeholder="Describa el motivo de la visita" enabled></textarea>
             <div class="invalid-feedback">
-              Ingrese una Contraseña.
+              Por favor ingrese el motivo de su visita
             </div>
           </div>
-        </div>
-        
-
-        <div class="mb-3">
-                <label for="motivo">Motivo de la visita <span class="text-muted">(Obligatorio)</span></label>
-                <input type="motivo" class="form-control" id="motivo" placeholder="Describa el motivo de la visita" enabled>
-                <div class="invalid-feedback">
-                  Por favor ingrese el motivo de su visita
-                </div>
-              </div>
-
-        <div class="mb-3">
-                <label for="celular">Implementos para llevar <span class="text-muted">(Obligatorio)</span></label>
-                <div class="checkbox">
-                    <label><input type="checkbox" value="">Comida</label>
-                  </div>
-                  <div class="checkbox">
-                    <label><input type="checkbox" value="">Libros</label>
-                  </div>
-                  <div class="checkbox">
-                    <label><input type="checkbox" value="" >Ropa</label>
-                  </div>
-                  <div class="checkbox">
-                      <label><input type="checkbox" value="" >Tabaco</label>
-                    </div>
-                  <div class="checkbox">
-                      <label><input type="checkbox" value="" >Cobijas</label>
-                    </div>
-                  <div class="checkbox">
-                          <label><input type="checkbox" value="" >Elementos de Aseo</label>
-                  </div>
-                  <div class="checkbox">
-                      <label><input type="checkbox" value="" >Otros</label>
-              </div>
-              
-     
-
-        <div class="row">
+          <div class="mb-3" id="listaitems">
+          </div>
+          <div class="row">
             <div class="col-md-6 mb-3">
               <label for="cedula">Adjunte foto actual de medio cuerpo donde se vea su rostro</label>
-              <input id="input-b1" name="input-b3" type="file" class="file" >
+              <input id="input-b1" name="input-b3" type="file" class="file">
               <div class="invalid-feedback">
-               Adjunte un archivo válido.
+                Adjunte un archivo válido.
               </div>
             </div>
             <div class="col-md-6 mb-3">
               <label for="cartaCompromiso">Adjunte documento Notaria</label>
-              <input id="input-b2" name="input-b4" type="file" class="file" >
+              <input id="input-b2" name="input-b4" type="file" class="file">
               <div class="invalid-feedback">
-                  Adjunte un archivo válido.
+                Adjunte un archivo válido.
               </div>
             </div>
-            
           </div>
+          <hr class="mb-4">
+          <button class="btn btn-primary btn-lg btn-block btn-warning" onclick="solicitarCitaVisitante()">Solicitar agendamiento de cita</button>
+        </div>
+      </div>
+  </main>
 
-        <hr class="mb-4">
-        <button class="btn btn-primary btn-lg btn-block btn-warning" type="submit">Solicitar agendamiento de cita</button>
-      </form> 
-</div>
-</div>
-</main>
+  <!-- **************************** FIN DE CODIGO ******************-->
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-
-
-<!-- **************************** FIN DE CODIGO ******************-->
-<script src="js/jquery-3.2.1.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="app.js/base.js"></script>
+  <script src="app.js/verificarLoggin.js"></script>
+  <script src="app.js/solicitarCita.js"></script>
 </body>
+
 </html>
