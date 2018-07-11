@@ -96,13 +96,13 @@ El presente plan de busca reunir las especificaciones necesarias para la realiza
 
 Los elementos de pruebas considerados, son aquellos componentes construidos en el sistema, que se presentan a continuación.
 
--	Registro de usuario: hace referencia a la gestión de registro, modificación, eliminación, autenticación y listado de los diferentes tipos de usuarios: visitante, empleado y recluso, además del administrador, quien se encarga de la gestión general.
--	Solicitud de visita: este módulo se encarga de registrar las diferentes solicitudes de visita, además de su modificación, para actualización de estado (si es aceptada o no) o eliminación. El rol de empleado o administrador, tiene acceso al listado de las visitas para hacer los cambios requeridos y evaluar su aceptación.
--	Verificación de requerimientos de visitante: este módulo tiene como función hacer contacto con la entidad de Registraduría para verificar la identidad de la persona como visitante; se encarga de confirmar o no la veracidad de la información suministrada por la persona. 
--	Agendamiento de citas: este módulo tiene como fin llevar a cabo un registro de las solicitudes de visita aceptadas, de acuerdo a la disponibilidad existente y a las fechas de visitas establecidas, relacionando al visitante con el recluso al que desea visitar, para finalmente generar un ticket de visita.
--	Documentos: este módulo se encarga de la administración de la carga de documentos por parte de los visitantes, teniendo en cuenta su tipo, tamaño, el almacenamiento y la forma para hacerlo.
--	Administración: este módulo tiene como fin establecer las diferentes funciones de las cuáles está a cargo el rol administrador, tales como la asignación de permisos, configuración de la plataforma, administración de usuarios, entre otros.
--	Vistas: este módulo hace referencia a la creación de las diferentes interfaces gráficas de usuario por rol, así como los formularios de registro.
+-	**Registro de usuario:** hace referencia a la gestión de registro, modificación, eliminación, autenticación y listado de los diferentes tipos de usuarios: visitante, empleado y recluso, además del administrador, quien se encarga de la gestión general.
+-	**Solicitud de visita:** este módulo se encarga de registrar las diferentes solicitudes de visita, además de su modificación, para actualización de estado (si es aceptada o no) o eliminación. El rol de empleado o administrador, tiene acceso al listado de las visitas para hacer los cambios requeridos y evaluar su aceptación.
+-	**Verificación de requerimientos de visitante:** este módulo tiene como función hacer contacto con la entidad de Registraduría para verificar la identidad de la persona como visitante; se encarga de confirmar o no la veracidad de la información suministrada por la persona. 
+-	**Agendamiento de citas:** este módulo tiene como fin llevar a cabo un registro de las solicitudes de visita aceptadas, de acuerdo a la disponibilidad existente y a las fechas de visitas establecidas, relacionando al visitante con el recluso al que desea visitar, para finalmente generar un ticket de visita.
+-	**Documentos:** este módulo se encarga de la administración de la carga de documentos por parte de los visitantes, teniendo en cuenta su tipo, tamaño, el almacenamiento y la forma para hacerlo.
+-	**Administración:** este módulo tiene como fin establecer las diferentes funciones de las cuáles está a cargo el rol administrador, tales como la asignación de permisos, configuración de la plataforma, administración de usuarios, entre otros.
+-	**Vistas:** este módulo hace referencia a la creación de las diferentes interfaces gráficas de usuario por rol, así como los formularios de registro.
 
 ### Nuevas Funcionalidades a Probar:
 
@@ -271,11 +271,11 @@ En las Tablas a continuación, se describen los diferentes enfoques de pruebas p
 
 Serán considerados los siguientes criterios para la aceptación o rechazo de los resultados del plan de pruebas:
 
--	El porcentaje de los casos exitosos en las pruebas debe superar el 99%
--	El porcentaje de defectos corregidos deberá estar sobre el 90%
--	El porcentaje total de errores no puede superar el 10% de la funcionalidad total del producto
--	Todas las funcionalidades del agendamiento de citas deberán funcionar sin ningún error o inconsistencia
--	Las funcionalidades de cargado de archivo deberán operar bajo completa normalidad
+-	El porcentaje de los casos exitosos en las pruebas debe superar el 99%.
+-	El porcentaje de defectos corregidos deberá estar sobre el 90%.
+-	El porcentaje total de errores no puede superar el 10% de la funcionalidad total del producto.
+-	Todas las funcionalidades del agendamiento de citas deberán funcionar sin ningún error o inconsistencia.
+-	Las funcionalidades de cargado de archivo deberán operar bajo completa normalidad.
 -	El producto deberá tener una disponibilidad de al menos 95% en el servidor donde se hospede.
 -	El producto puede contar con máximo un 10% de errores menores que no impacten críticamente al producto y que su causa sea desconocida.
 
@@ -283,21 +283,21 @@ Serán considerados los siguientes criterios para la aceptación o rechazo de lo
 
 Serán criterios de suspensión del plan de pruebas los siguientes:
 
--	Enfermedad grave que afecte al equipo de pruebas
--	Daños en el hardware donde se ejecutan las pruebas
--	Daños en el sistema operativo y software necesario para las pruebas
--	Ocurrencia de desastres naturales
--	Calamidades domésticas o de fuerza mayor del equipo de pruebas
--	Ocurrencia de un error de gravedad contemplado en la fase de diseño del producto
+-	Enfermedad grave que afecte al equipo de pruebas.
+-	Daños en el hardware donde se ejecutan las pruebas.
+-	Daños en el sistema operativo y software necesario para las pruebas.
+-	Ocurrencia de desastres naturales.
+-	Calamidades domésticas o de fuerza mayor del equipo de pruebas.
+-	Ocurrencia de un error de gravedad contemplado en la fase de diseño del producto.
 
 ### Criterios de Reanudación:
 Se reanudará el plan de pruebas bajo los siguientes criterios:
 
--	Cuando la persona enferma vuelva a estar en condiciones óptimas para realizar la prueba
--	Cuando el hardware donde se ejecutan las pruebas haya sido reparado
+-	Cuando la persona enferma vuelva a estar en condiciones óptimas para realizar la prueba.
+-	Cuando el hardware donde se ejecutan las pruebas haya sido reparado.
 -	Cuando los daños en el sistema operativo o el software hayan sido corregidos, o en caso contrario un formateo y reinstalación del software se haya efectuado.
--	Cuando el entorno de trabajo sea seguro para operar las pruebas
--	Cuando el miembro del equipo haya resuelto sus calamidades domésticas y esté en condiciones de realizar las pruebas
+-	Cuando el entorno de trabajo sea seguro para operar las pruebas.
+-	Cuando el miembro del equipo haya resuelto sus calamidades domésticas y esté en condiciones de realizar las pruebas.
 -	Cuando el error de gravedad en el diseño se haya corregido y se hayan hecho los ajustes pertinentes.
 
 ## Recursos:
@@ -305,19 +305,19 @@ Se reanudará el plan de pruebas bajo los siguientes criterios:
 ### Requerimientos de Entornos – Hardware :
 
 -	Computadora de escritorio con Intel Core i7 7770k, 8GB ram DDR4, SSD 1TB.
--	Servidor web Intel Xeon E5 CPUs, 32-64GB RAM, SSD and SAS/SATA3
--	Conectividad de FFTH de 500 Mbps
+-	Servidor web Intel Xeon E5 CPUs, 32-64GB RAM, SSD and SAS/SATA3.
+-	Conectividad de FFTH de 500 Mbps.
 
 ### Requerimientos de Entornos – Software  :
 
--	Sistema operativo Windows 10
--	Navegador Google Chrome, Firefox, Microsoft Edge, Opera, Safari
--	PGAdmin 3
--	PostgreSQL DB
--	Angular JS
--	Node JS
--	Bootstrap
--	Sistema operativo Devian
+-	Sistema operativo Windows 10.
+-	Navegador Google Chrome, Firefox, Microsoft Edge, Opera, Safari.
+-	PGAdmin 3.
+-	PostgreSQL DB.
+-	Angular JS.
+-	Node JS.
+-	Bootstrap.
+-	Sistema operativo Devian.
 
 ### Herramientas de Pruebas Requeridas:
 
@@ -339,11 +339,11 @@ Durante las pruebas se utilizarán las siguientes herramientas de pruebas:
 ### Entrenamiento:
 
 Para poder llevar a cabo el plan de pruebas es necesario realizar capacitaciones en:
--	Metodología DevOps
--	Uso de la plataforma Caron
--	Uso de Selenium
--	Uso de Jenkins
--	Uso de Docker
+-	Metodología DevOps.
+-	Uso de la plataforma Caron.
+-	Uso de Selenium.
+-	Uso de Jenkins.
+-	Uso de Docker.
 
 ## Planificación y Organización:
 
@@ -372,12 +372,14 @@ A continuación se plantea la matriz RACI, para establecer las actividades que s
 
 ### Cronograma:
 
+En el cronograma a continuación, se considera un tiempo de ejecución de pruebas de aproximadamente dos meses.
+
 ![](/images/cro8.png)
 
 ### Premisas:
 
--	Limitaciones de tiempo: se cuenta con un tiempo destinado para el proyecto es de aproximadamente un año y medio. 
--	Recurso humano: se cuenta con seis personas en el proyecto. 
+-	Limitaciones de tiempo: se cuenta con un tiempo destinado para el proyecto de aproximadamente un año y medio. 
+-	Recurso humano: se cuenta con doce personas en el proyecto. 
 -	Herramienta de pruebas: las herramientas de pruebas elegidas son Selenium y Karma. 
 
 ### Dependencias y Riesgos: 
@@ -389,11 +391,11 @@ A continuación se plantea la matriz RACI, para establecer las actividades que s
 ## Referencias:
 
 Para una mayor referencia o más detalle, puede consultar:
--	Documento plan de proyecto Caron
--	SQA Caron
--	Especificación de requerimientos
--	Historias de usuario
--	DevOps.com
+-	Documento plan de proyecto Caron.
+-	SQA Caron.
+-	Especificación de requerimientos.
+-	Historias de usuario.
+-	DevOps.com.
 
 ## Glosario
 
