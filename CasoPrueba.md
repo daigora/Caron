@@ -45,6 +45,7 @@ El formulario destinado para registrar la información del usuario debe contar c
 Para poderse ejecutar, cualquier persona/usuario debera dar clic en el boton de registro e insertar los datos. El sistema verificara que el formato de cada dato sea correcto.
 
 *2.3 Entrada*
+
 - El usuario da clic en registro de usuario
 - El usuario visualiza el formulario donde podrá ingresar su información
 - El usuario da clic en el botón "Registrar"
@@ -54,6 +55,7 @@ Para poderse ejecutar, cualquier persona/usuario debera dar clic en el boton de 
 La pagina lanza una notificación acerca de la aceptación del registro. Luego la página se devuelve a la su página de inicio para que el usuario pueda acceder con su información (identificador y contraseña)
 
 *2.5 Evaluación de la Prueba*
+
 El estado de la prueba es : Pendiente de evaluación
 
 ## Especificación de Caso de Prueba: Solicitud de Cita <a name="example2"> </a>
@@ -80,6 +82,29 @@ previo registrado y autenticado en la plataforma por parte del usuario.
 - Ingeniero DevOps
 
 **2. Solicitar Cita:**
+
+*2.1 Descripción*
+
+El formulario destinado para solicitar el agendamiento de una nueva cita de visita a un recluso debe contar con la capacidad de insertar datos y que este trabajo sea hecho por el usuario.
+
+*2.2 Condiciones de ejecución*
+
+Para poderse ejecutar, cualquier usuario, registrado y autenticado en la plataforma, debera dar click en el pestaña de Agenda e insertar los datos solicitados y dar click en boton "Solicitar agendamiento de cita". El sistema verificara que el formato de cada dato sea correcto.
+
+*2.3 Entrada*
+
+- El usuario da click en la pestaña Agenda.
+- El usuario visualiza el formulario donde podrá ingresar la información de vista.
+- El usuario ajunta los documentos necesarios para la solicitud.
+- El usuario da click en el botón "Solicitar agendamiento de cita".
+
+*2.4 Resultado esperado*
+
+La página lanza una notificación acerca del envio correcto de la solicitud de visita e informa del nuevo estado "pendiente" de la solicitud. Luego se redirige a la página de inicio y se actualiza la información de página de Notificaciones.
+
+*2.5 Evaluación de la Prueba*
+
+El estado de la prueba es : Pendiente de evaluación
 
 ## Especificación de Caso de Prueba: Actualización de datos de visitante <a name="third-example"></a>
 
@@ -114,14 +139,17 @@ El formulario destinado para consignar la información del visitante debe contar
 Para poderse ejecutar , es necesario que el usuario esté plenamente identificado o logueado en el sistema con su cuenta de visitante. Sólo los visitantes podrán actualizar su información.
 
 *2.3 Entrada*
+
 - El visitante visualiza el formulario donde está consignada su información y los campos inhabilitados que no le permiten hacer ningún tipo de edición.
 - El visitante da clic en el botón "Actualizar información"
 - Los campos del formulario tales como nickname, contraseña,e-mail,telefono,celular y dirección se habilitan para edición.
 - El usuario realiza los cambios necesarios por entrada de teclado .
 - El visitante da clic en el botón de "Guardar Cambios" para guardar la actualización de información que hizo.
+
 *2.4 Resultado esperado*
 
 El formulario visibiliza los cambios realizados y al recargar la página se muestra la actualización sin ningún tipo de problema.
 
 *2.5 Evaluación de la Prueba*
+
 El estado de la prueba es : Pendiente de evaluación
