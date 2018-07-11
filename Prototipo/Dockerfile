@@ -38,7 +38,7 @@ RUN apt-get install --no-install-recommends --no-install-suggests -y \
       rm -rf $FRONT/* # Remove default nginx front-end
 
 # Front-end
-COPY ./Front-End/www/ $FRONT/
+COPY ./Front-End/ $FRONT/
 
 # Back-end
 COPY ./Back-End/ $BACK/
