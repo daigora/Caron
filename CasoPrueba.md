@@ -6,7 +6,7 @@
 |:----------:|:-------:|:----------------------------------------------------------------------------:|:---------------:|
 | 10/07/2018 |   1.0   | Documentación caso de prueba de  Historia de usuario:Actualización  de datos | Camila Guerrero |
 | 10/07/2018 |   1.0   | Documentación caso de prueba de  Historia de usuario:Registro de usuario     | John Castellanos|
-|            |         |                                                                              |                 |
+| 10/07/2018 |   1.0   | Documentación caso de prueba de  Historia de usuario:Solicitud de cita       | Diego Rodriguez
 
 ### Tabla de Contenidos
 1. [Registro de Usuario](#example)
@@ -56,7 +56,31 @@ La pagina lanza una notificación acerca de la aceptación del registro. Luego l
 *2.5 Evaluación de la Prueba*
 El estado de la prueba es : Pendiente de evaluación
 
-## Especificación de Caso de Prueba: Solicitud de cita <a name="example2"> </a>
+## Especificación de Caso de Prueba: Solicitud de Cita <a name="example2"> </a>
+**1.Descripción:**
+
+Este artefacto cubre el conjunto de pruebas realizadas sobre la historia de Usuario de la solicitud de cita de una visita.
+
+![Historia de usuario 2](/images/historiaRegistro2.png)
+
+La pruebas realizadas a este caso de uso son:
+
+- Dar clic en "Agenda" y se procedera a otra vista en la pantalla.
+- En la nueva ventana, se habilitara la edicion de los campos de id_recluso, fecha, hora_inicio, hora_fin, motivo.
+- Asegurar el tipo de dato aceptado en los campos habilitados.
+- Adjuntar foto y documento de notaria.
+- Dar clic en "Solicitar agendamiento de cita" y que se envie un mensaje de confirmación y pendiente notificación.
+- Recargar la página y volver a la página de inicio.
+
+El entorno del cual partiremos para realizar la prueba será la vistar Agenda que presenta el inicio de la aplicación y
+previo registrado y autenticado en la plataforma por parte del usuario.
+
+*Responsables:*
+- Jefe de pruebas
+- Ingeniero DevOps
+
+**2. Solicitar Cita:**
+
 ## Especificación de Caso de Prueba: Actualización de datos de visitante <a name="third-example"></a>
 
 **1.Descripción:**
