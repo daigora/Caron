@@ -106,7 +106,7 @@ Los elementos de pruebas considerados, son aquellos componentes construidos en e
 
 ### Nuevas Funcionalidades a Probar:
 
-####Rol visitante
+#### Rol visitante
 
 -	**Registro de usuario:** registro para un nuevo usuario visitante quien no ha sido registrado previamente. Dentro del registro se incluye la carga de una copia de la cédula de ciudadanía para confirmar la identidad de la persona. El registro debe ser aprobado por la entidad autorizada del INPEC.
 -	**Autenticación como usuario:** una vez registrado un nuevo visitante, este puede ingresar a la plataforma ingresando el correo electrónico registrado, y la contraseña. De ser correcto y previamente aprobado, el usuario podrá ingresar. 
@@ -116,14 +116,14 @@ Los elementos de pruebas considerados, son aquellos componentes construidos en e
 -	**Consultar estado de la cita:** un visitante autenticado puede consultar el estado actual de la visita que ha solicitado.
 -	**Cargar documentación:** un visitante debe cargar documentos en dos casos: cuando se registra, para confirmar su identidad a través de una fotocopia de la cédula, y cuando solicita una cita, donde incluye un compromiso firmado, una constancia de parentesco, una foto de medio cuerpo a color y, opcionalmente, un extrajuicio notarial (para menores de edad).
 
-####Rol empleado:
+#### Rol empleado:
 
 -	**Autenticación como empleado:** un usuario empleado registrado, puede ingresar a la plataforma usando el correo electrónico previamente registrado, y la contraseña. De ser correcto, el usuario podrá ingresar.
 -	**Visualización histórico de citas general:** un empleado autenticado, puede revisar el histórico de todas las visitas que se han dado para todos los usuarios.
 -	**Agendamiento de citas:** un usuario empleado autenticado, puede ver el registro de todas las solicitudes de visita y cambiar su estado, para aceptar o denegar una cita. 
 -	**Actualización de información de reclusos:** un empleado autenticado, tiene la opción de administrar la información de los reclusos, ya sea para agregar uno nuevo, eliminar, modificar información o cambiar su estado.
 
-####Rol administrador:
+#### Rol administrador:
 
 -	**Registro de información de empleado:** un usuario administrador debe registrar a todos los empleados que van a tener acceso a la plataforma.
 
@@ -187,7 +187,7 @@ En las Tablas a continuación, se describen los diferentes enfoques de pruebas p
 </table>
 
 
-#### Prebas unitarias
+#### Pruebas unitarias
 <table summary="Unitarias">
   <tbody>
     <tr>
@@ -209,7 +209,7 @@ En las Tablas a continuación, se describen los diferentes enfoques de pruebas p
   </tbody>
 </table>
 
-#### Prebas de integración
+#### Pruebas de integración
 <table summary="Integración">
   <tbody>
     <tr>
@@ -231,7 +231,7 @@ En las Tablas a continuación, se describen los diferentes enfoques de pruebas p
   </tbody>
 </table>
 
-#### Prebas de sistema 
+#### Pruebas de sistema 
 <table summary="Sistema">
   <tbody>
     <tr>
