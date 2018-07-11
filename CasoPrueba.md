@@ -1,4 +1,4 @@
-# PLAN DE CASO DE PRUEBA 
+# PLAN DE CASO DE PRUEBA
 
 ### Historial de Revisiones
 
@@ -46,7 +46,7 @@ Para poderse ejecutar, cualquier persona/usuario debera dar clic en el boton de 
 
 *2.3 Entrada*
 - El usuario da clic en registro de usuario
-- El usuario visualiza el formulario donde podrá ingresar su información 
+- El usuario visualiza el formulario donde podrá ingresar su información
 - El usuario da clic en el botón "Registrar"
 
 *2.4 Resultado esperado*
@@ -61,7 +61,7 @@ El estado de la prueba es : Pendiente de evaluación
 
 Este artefacto cubre el conjunto de pruebas realizadas sobre la historia de Usuario de la solicitud de cita de una visita.
 
-![Historia de usuario 2](/images/historiaRegistro2.png)
+![Historia de usuario 2](/images/historiaCita.png)
 
 La pruebas realizadas a este caso de uso son:
 
@@ -107,11 +107,11 @@ El entorno del cual partiremos para realizar la prueba será el  formulario de d
 
 *2.1 Descripción*
 
-El formulario destinado para consignar la información del visitante debe contar con la posibilidad de actualizar datos y que este trabajo lo haga por su propia cuenta el usuario. 
+El formulario destinado para consignar la información del visitante debe contar con la posibilidad de actualizar datos y que este trabajo lo haga por su propia cuenta el usuario.
 
 *2.2 Condiciones de ejecución*
 
-Para poderse ejecutar , es necesario que el usuario esté plenamente identificado o logueado en el sistema con su cuenta de visitante. Sólo los visitantes podrán actualizar su información. 
+Para poderse ejecutar , es necesario que el usuario esté plenamente identificado o logueado en el sistema con su cuenta de visitante. Sólo los visitantes podrán actualizar su información.
 
 *2.3 Entrada*
 - El visitante visualiza el formulario donde está consignada su información y los campos inhabilitados que no le permiten hacer ningún tipo de edición.
@@ -125,4 +125,3 @@ El formulario visibiliza los cambios realizados y al recargar la página se mues
 
 *2.5 Evaluación de la Prueba*
 El estado de la prueba es : Pendiente de evaluación
-

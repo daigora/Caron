@@ -1,14 +1,14 @@
 # Docker
 
-**Dentro del directorio `/Caron/Prototipo`**
+**Dentro del directorio `/Caron/Prototipo/`**
 
 *Linux/Windows**
 
-*Iniciar servicio de Docker:*
+**Iniciar servicio de Docker:**
 
-   `sudo systemctl start docker`  
+    sudo systemctl start docker  
   ó  
-   `sudo service docker start`
+    sudo service docker start
 
 **Ejecutar:**
 
@@ -23,9 +23,9 @@
 
 **En el navegador:**
 
-  Front-End
+  Front-End:
     `localhost`  
-  Back-End
+  Back-End:
     `localhost:5000`  
-  Admin DB
+  Admin DB:
     `localhost:5432`  
