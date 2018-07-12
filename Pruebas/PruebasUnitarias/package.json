@@ -1,0 +1,16 @@
+{
+  "name": "pruebasunitarias",
+  "version": "1.0.0",
+  "description": "Pruebas unitarias backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.js --timeout 15000"
+  },
+  "author": "Grupo CARON",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
+}
