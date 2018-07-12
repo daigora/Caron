@@ -20,7 +20,7 @@ exports.autenticarUsuario = function(dataAutenticacion) {
                     }
                 });
             } else {
-                throw new Error("Usuario ya existente");
+                throw new Error("Usuario inexistente");
             }
         })
         .catch((error) => {
